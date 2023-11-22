@@ -1,0 +1,1492 @@
+const translat = {
+  en: {
+    home: "Home",
+    products: "Products",
+    articles: "Articles",
+    about: "About Us",
+    contact: "Contact Us",
+    arabic: "Arabic",
+    english: "English",
+    choose: "Lang",
+    core: "Core Value",
+    respect: "Respect",
+    respectp: "We value each one",
+    coll: "Collaboration",
+    collp:
+      "All the members of our company family are gears moving one machine forward",
+    acc: "Accountability",
+    accp: "Premium Quality … Premium Health",
+    inn: "Innovation",
+    innp: "Small ideas lead to great achievements",
+    bel: "Believe",
+    belp: "There is always a dream to reach",
+    product: "Our Products",
+    prointro:
+      "We provide a wide range of products that meet all the needs of our customers health",
+    promore: "To More Details",
+    proclick: "Click Here",
+    artintro:
+      "Because Your health is important to us, so we give you important medical information",
+    artmore: "Browse from here",
+    abouthead: "Who We Are ?",
+    aboutintro:
+      "Our team brings together decades of experience across nutrition, medicine, biochemistry and pharmaceutical sciencen, And we continue to learn, grow and improve our products based on the latest research.",
+    geo: "Dr. George Kamal",
+    geojob: "Chief Executive Officer",
+    kam: "Mr. Kamal Guirguis",
+    kamjob: "Managing Director",
+    jos: "Dr. Josian Kamal",
+    josjob: "Executive Manager",
+    aboutmore: "To learn More about Us",
+    aboutclick: "Click Here",
+    ourphil:
+      "We don’t believe in one-size-fits-all, That’s why our line-up includes products that are as unique as the people that trust them every day",
+    conhead: "Where You Can Find Us",
+    conp: "Do not hesitate to contact us, our team is happy to serve you",
+    add: "Our Address:",
+    addlink:
+      "Egypt, Giza, 6th of October, Central corridor, City stars towers, tower 3, 4th floor, unit 14",
+    email: "Our E-Mail:",
+    phone: "Our Phone:",
+    follow: "Follow Us:",
+    face: "Face Book",
+    twitter: "X-Twitter",
+    insta: "Instagram",
+    linked: "LinkedIn",
+    filter: "Filter Of Products",
+    all: "All",
+    men: "Men",
+    women: "Women",
+    bone: "Bone",
+    immunity: "Immunity",
+    pregnancy: "Pregnancy",
+    weiman: "Weight Management",
+    famferrin: "Famferrin",
+    stavromine: "Stavromine",
+    stavromineforte: "Stavromine Forte",
+    vavracd: "Vavra CD",
+    vavrabneuro: "Vavra B Neuro",
+    ellenagen: "Ellenagen",
+    vavrad3: "Vavra D3",
+    vavrairon: "Vavra Iron",
+    vavrapreg: "Vavra Preg",
+    vavraslim: "Vavra Slim",
+    vavravit: "Vavra Vit",
+    zncyril: "Zncyril",
+    benefits: "Benefits",
+    more: "More",
+    fam1: "Provides balanced iron concentration in the blood.",
+    fam2: "Supports immunity.",
+    fam3: "Protects cells against oxidative stress.",
+    sta1: "Doesn't affect the blood pressure.",
+    sta2: "Help To Build The cartilage.",
+    sta3: "All components are from natural sources.",
+    staf1: "Provides all the support your joints need.",
+    staf2: "Helps restore joint flexibility.",
+    staf3: "It doesn't affect blood pressure.",
+    cd1: "Supports Immune system.",
+    cd2: "Enhances Collagen formation for healthy skin and joints.",
+    cd3: "Anti aging.",
+    vbn1: "Supports daily cell renewal.",
+    vbn2: "It helps improve important activities throughout the body.",
+    vbn3: "Formation of neurotransmitters for brain and nerve function.",
+    ell1: "Supports your body to restore healthy joint structure.",
+    ell2: "Provides the body with the required peptides.",
+    ell3: "Protects your skin and nails from oxidative stress.",
+    d31: "Provides the body with 10,000 IU of Vitamin D3.",
+    d32: "Supports the body's immunity.",
+    d33: "It enhances the absorption of calcium and phosphate and their deposition in the bones.",
+    iron1: "Supports normal level of Iron.",
+    iron2: "Supports the body immune system.",
+    iron3: "Contributes to reduce tiredness and fatigue.",
+    preg1: "Extends the body with appropriate vitamins & metals.",
+    preg2:
+      "Support the health of the mother and fetus during all stages of pregnancy.",
+    preg3: "Includes Zinc which contributes to normal reproductive health.",
+    slim1: "Decreases the formation of fats.",
+    slim2: "Suppresses the feeling of hunger.",
+    slim3:
+      "Enhances the intestinal movement to avoid maldigestion and constipation.",
+    vit1: "Support the body immunity.",
+    vit2: "Extends the body with appropriate vitamins & metals.",
+    vit3: "Treated general weakness & is still due to vitamin deficiency.",
+    znc1: "Maintains the immune system.",
+    znc2: "It's essential for male sexual health.",
+    znc3: "It helps in the growth of damaged cells.",
+    th1: "Iron Deficiency Anemia",
+    th2: "How To Strengthen Your Immunity?",
+    th3: "Vitamin D3",
+    ida1: "Human Body needs Red Blood Cells (RBCs) to Carry oxygen from lung to all the cells for tissue vitality.",
+    ida2: "The main active part in RBCs is the Haemoglobin which needs Iron (Fe) essentially for its formation.",
+    ida3: "Iron deficiency anemia is a common type of anemia — a condition in which blood lacks adequate healthy red blood cells due to insufficient Iron.",
+    ida4: "As a result, iron deficiency anemia may leave you tired and short of breath.",
+    formore: "For More",
+    htsyi1:
+      "With the rise of infections, and rapid spreading of mutant viruses and bacteria, more and more people are searching about how to strengthen their immune system.",
+    htsyi2:
+      "There are many ways to enhance your immunity, Here we will mention some steps in order to help you to strengthen your immune system.",
+    htsyi3:
+      "The most efficient way to build up a strong immunity is to develop a set of good habits.",
+    vid31:
+      "It is a fat-soluble vitamin that has long been known to help the body absorb and retain calcium and phosphorus, both are critical for building bone.",
+    vid32:
+      "Also, laboratory studies show that vitamin D can reduce cancer cell growth, help control infections and reduce inflammation.",
+    vid33:
+      "Many of the body’s organs and tissues have receptors for vitamin D, which suggest important roles beyond bone health, and scientists are actively investigating other possible functions.",
+    geo1: "He occupied many positions in the field of Quality Control in several well-known pharmaceutical companies till Occupied the position of Deputy QC Manager.",
+    geo2: "He occupied many position in the field of Marketing, research and development of pharmaceutical and nutraceutical products.",
+    kam1: "Expert and consultant in the field of economy, banking, finance and taxes.",
+    kam2: "In addition to great experience in the field of marketing and sales.",
+    kam3: "All these experiences were gained through his previous working positions:",
+    kam4: "Chief Operation Officer at Alex Bank.",
+    kam5: "Board member of middle and west delta mills company.",
+    kam6: "Board member of many investments’ companies.",
+    kam7: "Financial and management consultant for many well-established companies.",
+    jos1: "Marketing and Sales especially Digital marketing.",
+    jos2: "Research and development.",
+    jos3: "Regulatory affairs according to all the recent and previous roles.",
+    name: "Trendy",
+    name1:
+      "Is a company working in the field of nutritional supplements and specialty foods.",
+    name2:
+      "Since establishment in 2019, we take the commitment to support the community with products of heigh efficacy, safety and quality.",
+    name3:
+      "All the owners have great experiences in the fields of Quality, Marketing, Management and finance, which they exploit to achieve their commitment.",
+    name4:
+      "We are seeking to provide the community with wide range of products that meet most of costumers’ needs.",
+    name5: "Your health is our responsibility.",
+    name6:
+      "Aiming to implement the company’s vision towards industrialization, by God’s grace and praise, we have purchased a piece of land in the industrial zone of Giza.",
+    name7:
+      "Construction and equipment purchasing will soon start, so that actual production will begin within three years, according to the terms of the contract and requirements of the Industrial Development Authority,thus coping with our country’s plan to encourage manufacturing and reduce the import bill.",
+    vishead: "Our Vision",
+    vistext:
+      "By 2026 to be one of the Top 30 nutraceutical companies in Egypt.",
+    mishead: "Our Mission",
+    mistext1: "Seeking to achieve most customers’ need.",
+    mistext2: "Ensure high quality products with affordable prices.",
+    mistext3:
+      "Building strong and cooperative marketing team with high skills.",
+    dropan: "Anemia",
+    dropimm: "Immunity",
+    dropvit: "Vitamin D3",
+    over: "Overview",
+    over1:
+      "Human Body needs Red Blood Cells (RBCs) to Carry oxygen from lung to all the cells for tissue vitality.",
+    over2:
+      "The main active part in RBCs is the Haemoglobin which needs Iron (Fe) essentially for its formation.",
+    over3:
+      "Iron deficiency anemia is a common type of anemia — a condition in which blood lacks adequate healthy red blood cells due to insufficient Iron.",
+    over4:
+      "As a result, iron deficiency anemia may leave you tired and short of breath.",
+    over5:
+      "Person can usually correct iron deficiency anemia with iron supplementation.",
+    over6:
+      "Sometimes additional tests or treatments for iron deficiency anemia are necessary, especially if your doctor suspects that you're bleeding internally.",
+    symhead: "Symptoms",
+    symtext:
+      "Without neither periodic check nor complete blood count testing, Mild cases of Iron deficiency anemia goes unnoticed, But as the body becomes more deficient in iron and anemia worsens, the signs and symptoms will start to be recognized, Iron deficiency anemia signs and symptoms may include:",
+    sym1: "Extreme fatigue",
+    sym2: "Weakness",
+    sym3: "Pale skin",
+    sym4: "Chest pain, fast heartbeat or shortness of breath",
+    sym5: "Headache, dizziness or lightheadedness",
+    sym6: "Cold hands and feet",
+    sym7: "Inflammation or soreness of your tongue",
+    sym8: "Brittle nails",
+    sym9: "Unusual cravings for non-nutritive substances, such as ice, dirt or starch",
+    sym10: "Poor appetite, especially in infants and children",
+    causes: "Causes",
+    cautext1:
+      "Iron deficiency anemia occurs when your body doesn't have enough iron to produce hemoglobin.",
+    cautext2:
+      "If you aren't consuming enough iron, or if you're losing too much iron, your body can't produce enough hemoglobin, and iron deficiency anemia will eventually develop, Causes of iron deficiency anemia include:",
+    span1: "Blood loss",
+    span2: "lack of iron in diet",
+    span3: "Iron malabsorption",
+    span4: "Pregnancy",
+    olp1: "Blood contains iron within red blood cells, So if you lose blood, you lose some iron.",
+    olp2: "Iron from food is absorbed into your bloodstream through the small intestine, Iron needs transferrin to be absorbed, Lactoferrin has the ability to transfer iron inside the intestine 3 times more than other transferrins, Iron malabsorption may be caused by:",
+    olulli1: "Women with heavy periods lose blood during menstruation.",
+    olulli2:
+      "Some medical conditions like a peptic ulcer, a hiatal hernia, a colon polyp or colorectal cancer.",
+    olulli3:
+      "Gastrointestinal bleeding can result from regular use of some over-the-counter pain relievers, especially aspirin.",
+    olulli4:
+      "In case of too little iron intake, over time your body can become iron deficient.",
+    olulli5:
+      "Examples of iron-rich foods include meat, eggs, leafy green vegetables and iron-fortified foods.",
+    olulli6:
+      "For proper growth and development, infants and children need iron from their diets too.",
+    olulli7:
+      "Intestinal disorder, such as celiac disease, which affects your intestine's ability to absorb nutrients from digested food, can lead to iron deficiency anemia.",
+    olulli8:
+      "If part of your small intestine has been bypassed or removed surgically, that may affect your ability to absorb iron and other nutrients.",
+    olulli9:
+      "Without iron supplementation, iron deficiency anemia occurs in many pregnant women because their iron stores need to serve their own increased blood volume as well as be a source of hemoglobin for the growing fetus.",
+    risk: "Risk Factors",
+    risktext:
+      "These groups of people may have an increased risk of iron deficiency anemia:",
+    span5: "Women",
+    span6: "Infants and children",
+    span7: "Vegetarians",
+    span8: "Frequent blood donors",
+    olp3: "Because women lose blood during menstruation, women in general are at greater risk of iron deficiency anemia.",
+    olp4: "Infants especially those who were low birth weight or born prematurely, who do not get enough iron from breast milk or formula may be at risk of iron deficiency, Children need extra iron during growth spurts so if your child is not eating a healthy, he may be at risk of anemia.",
+    olp5: "People who don't eat meat may have a greater risk of iron deficiency anemia if they don't eat other iron-rich foods.",
+    olp6: "People who routinely donate blood may have an increased risk of iron deficiency anemia since blood donation can deplete iron stores, so If you're told that you can't donate blood because of low hemoglobin, ask your doctor whether you should be concerned or no.",
+    comhead: "Complications",
+    comtext:
+      "Untreated iron deficiency anemia can become severe and lead to health problems, including the following:",
+    span9: "Heart problems",
+    span10: "Problems during pregnancy",
+    span11: "Growth problems",
+    olp7: "Iron deficiency anemia may lead to a rapid or irregular heartbeat.",
+    olp8: "In pregnant women, severe iron deficiency anemia has been linked to premature births and low birth weight babies.",
+    olp9: "In infants and children, severe iron deficiency can lead to anemia as well as delayed growth and development, With an increased susceptibility to infections.",
+    pathead: "Prevention and Treatment",
+    pattext:
+      "You can reduce your risk of iron deficiency anemia by choosing iron-rich foods.",
+    span12: "Choose iron-rich foods",
+    span13: "Choose foods containing vitamin C to enhance iron absorption",
+    span14: "Intake Dietary supplements",
+    olp10: "Foods rich in iron include",
+    olp11:
+      "Your body absorbs more iron from meat than it does from other sources.",
+    olp12:
+      "You can enhance your body's absorption of iron by drinking citrus juices or eating other foods rich in vitamin C at the same time that you eat high-iron foods, Vitamin C in citrus juices, such as orange juice, helps your body to better absorb dietary iron, Vitamin C is also found in:",
+    olp13:
+      "The most preferred dietary supplements that supports treatment or prevention of Iron deficiency anemia are those containing:",
+    olulli10: "Red meat, pork and poultry.",
+    olulli11: "Seafood.",
+    olulli12: "Beans.",
+    olulli13: "Dark green leafy vegetables, such as spinach.",
+    olulli14: "Dried fruit, such as raisins and apricots.",
+    olulli15: "Iron-fortified cereals, breads and pastas.",
+    olulli16: "Peas.",
+    olulli17: "Grapefruit",
+    olulli18: "Kiwi",
+    olulli19: "Leafy greens",
+    olulli20: "Melons",
+    olulli21: "Oranges",
+    olulli22: "Strawberries",
+    olulli23: "Tangerines",
+    olulli24: "Tomatoes",
+    olulli25: "Broccoli",
+    olulli26: "Adequate amount of Iron.",
+    olulli27: "Source of vitamin C to enhance iron absorption.",
+    olulli28:
+      "Source of Transferrin like Lactoferrin as the main protein responsible for Iron absorption through the small intestine.",
+    span15: "Avoid stress",
+    span16: "Healthy life style",
+    span17: "Follow your doctor instructions",
+    span18: "Supplements like vitamins and minerals",
+    text1:
+      "With the rise of infections, and rapid spreading of mutant viruses and bacteria, more and more people are searching about how to strengthen their immune system.",
+    text2:
+      "There are many ways to enhance your immunity And here we will mention some steps in order to help you to strengthen your immune system.",
+    text3:
+      "The most efficient way to build up a strong immunity is to develop a set of good habits, incorporating them into your daily routine makes all the difference between having a weak and strong immune response.",
+    olp14:
+      "Many studies show that constant and continuous stress, overthinking and even negative thoughts may lead to immune compromising, That makes you get sick easily and recurrent infections.",
+    olp15:
+      "Healthy food, regular plan for meals intake, sleep sufficiently and regular physical exercise are important keys for health immune system.",
+    olp16:
+      "Studies show that many people are not committed to the doctor instructions for medication uses and doses.",
+    olp17:
+      "Thus, immune system is affected by these behaviors and may lead to recurrent infections.",
+    olp18:
+      "Such as inappropriate intake of antibiotics lead to new generation of bacteria that resist immunity and antibiotics.",
+    olp19:
+      "Some vitamins are not synthesis naturally by the human body like vitamin C and Vitamin B 12, others need activation so it depends on the health condition of the body like vitamin D, vitamin E and folic acid Vitamins and minerals are mainly supplied to the body through healthy food.",
+    olp20:
+      "Due to the recent life style and unhealthy habits, supporting the body with supplements that containing immune boosters is important for your healthy life.",
+    olp21:
+      "Supports your immunity with two of the most important immune boosters that your body needs Vitamin C 1000mg and Vitamin D3 5000 IU (the active form of vitamin D).",
+    vp1: "It's a fat-soluble vitamin that has long been known to help the body absorb and retain calcium and phosphorus, both are critical for building bone.",
+    vp2: "Also, laboratory studies show that vitamin D can reduce cancer cell growth, help control infections and reduce inflammation.",
+    vp3: "Many of the body’s organs and tissues have receptors for vitamin D, which suggest important roles beyond bone health, and scientists are actively investigating other possible functions.",
+    vp4: "Few foods naturally contain vitamin D, though some foods are fortified with the vitamin.",
+    vp5: "For most people, the best way to get enough vitamin D is taking a supplement because it is hard to eat enough through food.",
+    vp6: "Vitamin D supplements are available in two forms: vitamin D2 (“ergocalciferol” or pre-vitamin D) and vitamin D3 (“cholecalciferol”).",
+    vp7: "Both are also naturally occurring forms that are produced in the presence of the sun’s ultraviolet-B (UVB) rays, hence its nickname, “the sunshine vitamin,” but D2 is produced in plants and fungi and D3 in animals, including humans.",
+    vh1: "Vitamin D level world widely",
+    vp8: "Recommended Daily Amount (RDA): For adults 19 years and older is 600 IU daily for men and women, and for adults >70 years it is 800 IU daily, This is for individuals with normal level of vitamin D.",
+    vp9: "An estimated 1 billion people have inadequate levels of vitamin D in their blood, and deficiencies can be found in all ethnicities and age groups.",
+    vp10: "In industrialized countries, doctors are seeing the resurgence of rickets, the bone-weakening disease that had been largely eradicated through vitamin D fortification.",
+    vp11: "The Institute of Medicine (IOM) released in November 2010 recommendations increasing the daily vitamin D intake for children and adults in the U.S. and Canada, to 600 IU per day.",
+    vp12: "Although some groups such as The Endocrine Society recommend 1,500 to 2,000 IU daily to reach adequate serum levels of vitamin D.",
+    vli1: "Supports your body with 5000 IU and",
+    vli2: "supports your body with 10,000 IU of Vitamin D3 the bioactive form of vitamin D, To enrich your body with all the benefits of Vitamin D3 efficiently.",
+    btn1: "Vitamin D and Health",
+    btn2: "Is There a Difference Between Vitamin D3 and Vitamin D2 Supplements?",
+    btn3: "Food Sources",
+    btn4: "Ultraviolet Light role for vitamin D",
+    btn5: "Signs of Deficiency and Toxicity",
+    btn11: "1- Bone and muscle strength",
+    btn12: "2- Immune function",
+    btn13: "3- Heart disease",
+    vp13: "As mentioned before, Vitamin d is responsible for calcium and phosphorous in bone, which are the building blocks of bone.",
+    vp14: "Several studies link low vitamin D blood levels with an increased risk of fractures in older adults.",
+    vp15: "Some studies suggest that vitamin D supplementation in certain amounts may prevent such fractures.",
+    vp16: "12 randomized controlled trials that included more than 42,000 people 65+ years of age, most of them women, looked at vitamin D supplementation with or without calcium, and with calcium or a placebo.",
+    vp17: "Researchers found that higher intakes of vitamin D supplements - about 500-800 IU per day - reduced hip and non-spine fractures by about 20%, while lower intakes (400 IU or less) failed to offer any fracture prevention benefit.",
+    vp18: "Vitamin D may help increase muscle strength by preserving muscle fibers, which in turn helps to prevent falls, a common problem that leads to substantial disability and death in older people.",
+    vp19: "A combined analysis of multiple studies found that taking 700 to 1,000 IU of vitamin D per day lowered the risk of falls by 19%, but taking 200 to 600 IU per day did not offer any such protection.",
+    vp20: "Here we are going to highlight the effect of Vitamin D intake and deficiency on some diseases:",
+    btn121: "Multiple Sclerosis",
+    btn122: "Type 1 Diabetes",
+    btn123: "Type 2 Diabetes",
+    btn124: "Flu, The Common Cold and COVID-19",
+    btn125: "Other Autoimmune Conditions",
+    vp21: "The rate of multiple sclerosis (MS) is increasing in both developed and developing countries, with an unclear cause.",
+    vp22: "This conclusion has been strengthened substantially by recent evidence that genetically determined low levels of vitamin D predict higher risk of multiple sclerosis.",
+    vli3: "A prospective study of dietary intake of vitamin D found women with daily intake above 400 IU had a 40% lower risk of MS.",
+    vli4: "In a study among healthy young adults in the US, White men and women with the highest vitamin D serum levels had a 62% lower risk of developing MS than those with the lowest vitamin D levels.",
+    vli5: "Another prospective study in young adults from Sweden also found a 61% lower risk of MS with higher serum vitamin D levels.",
+    vli6: "And a prospective study among young Finnish women found that low serum vitamin D levels were associated with a 43% increased risk of MS.",
+    vp23: "Early evidence suggesting that vitamin D may play a role in T1D comes from a 30-year study that followed more than 10,000 Finnish children from birth.",
+    vp24: "Children who regularly received vitamin D supplements during infancy had a nearly 90% lower risk of developing type 1 diabetes than those who did not receive supplements.",
+    vp25: "Approximately 40% of T1D cases begin in adulthood.",
+    vp26: "A prospective study among healthy young adults in the US found that White individuals with the highest levels of serum vitamin D had a 44% lower risk of developing T1D in adulthood than those with the lowest levels.",
+    vp27: "More research is needed in this area.",
+    vp28: "Vitamin D deficiency may negatively affect the biochemical pathways that lead to the development of Type 2 diabetes (T2DM), including impairment of beta cell function in the pancreas, insulin resistance, and inflammation.",
+    vp29: "Prospective observational studies have shown that higher vitamin D blood levels are associated with lower rates of T2DM.",
+    vp30: "More than 83,000 women without diabetes at baseline were followed in the Nurses’ Health Study for the development of T2DM.",
+    vp31: "Vitamin D and calcium intakes from diet and supplements were assessed throughout the 20-year study.",
+    vp32: "The authors found that when comparing the women with the highest intakes of vitamin D from supplements with women with the lowest intakes, there was a 13% lower risk of developing T2DM.",
+    vp33: "The effect was even stronger when vitamin D was combined with calcium: there was a 33% lower risk of T2DM in women when comparing the highest intakes of calcium and vitamin D from supplements (>1,200mg, >800 IU daily) with the lowest intakes (<600 mg, 400 IU).",
+    vp34: "Vitamin D levels are lowest in the winter months.",
+    vp35: "The active form of vitamin D tempers the damaging inflammatory response of some white blood cells, while it also boosts immune cells’ production of microbe-fighting proteins.",
+    vp36: "Children who have vitamin D-deficiency rickets are more likely to get respiratory infections, while children exposed to sunlight seem to have fewer respiratory infections.",
+    vp37: "Adults who have low vitamin D levels are more likely to report having had a recent cough, cold, or upper respiratory tract infection.",
+    vp38: "Although randomized controlled trials exploring the potential of vitamin D to prevent other acute respiratory infections have yielded mixed results, a large meta-analysis of individual participant data indicated that daily or weekly vitamin D supplementation lowers risk of acute respiratory infections.",
+    vp39: "The findings from this large meta-analysis have raised the possibility that low vitamin D levels may also increase risk of or severity of novel coronavirus 2019 (COVID-19) infection.",
+    vp40: "Although there is no direct evidence on this issue because this such a new disease, avoiding low levels of vitamin D makes sense for this and other reasons.",
+    vp41: "Thus, if there is reason to believe that levels might be low, such as having darker skin or limited sun exposure, taking a supplement of 1000 or 2000 IU per day is reasonable.",
+    vp42: "This amount is now part of many standard multiple vitamin supplements and inexpensive.",
+    vp43: "The Vitamin D and Omega 3 trial (VITAL), a randomized double-blind placebo-controlled trial following more than 25,000 men and women ages 50 and older, found that taking vitamin D supplements (2,000 IU/day) for five years, or vitamin D supplements with marine omega-3 fatty acids (1,000 mg/day), reduced the incidence of autoimmune diseases by about 22%, compared with a placebo.",
+    vp44: "Autoimmune conditions observed included rheumatoid arthritis, psoriasis, polymyalgia rheumatica, and autoimmune thyroid diseases (Hashimoto’s thyroiditis, Graves’ disease).",
+    vp45: "The doses in these supplements are widely available and generally well-tolerated.",
+    vp46: "The authors recommended additional trials to test the effectiveness of these supplements in younger populations and those at high risk of developing autoimmune diseases.",
+    vp47: "The heart is basically a large muscle, and like skeletal muscle, it has receptors for vitamin D.",
+    vp48: "Immune and inflammatory cells that play a role in cardiovascular disease conditions like atherosclerosis are regulated by vitamin D.",
+    vp49: "The vitamin also helps to keep arteries flexible and relaxed, which in turn helps to control high blood pressure.",
+    vp50: "In the Health Professionals Follow-up Study nearly 50,000 healthy men were followed for 10 years.",
+    vp51: "Those who had the lowest levels of vitamin D were twice as likely to have a heart attack as men who had the highest levels.",
+    vp52: "Meta-analyses of epidemiological studies have found that people with the lowest serum levels of vitamin D had a significantly increased risk of strokes and any heart disease event compared with those with the highest levels.",
+    vp53: "If you purchase vitamin D supplements, you may see two different forms.",
+    vp54: "Vitamin D2 and vitamin D3. Vitamin D2 is made from plants and is found in fortified foods and some supplements.",
+    vp55: "Vitamin D3 is naturally produced in the human body and is found in animal foods.",
+    vp56: "There is ongoing debate whether vitamin D3 “cholecalciferol” is better than vitamin D2 “ergocalciferol” at increasing blood levels of the vitamin.",
+    vp57: "A meta-analysis of randomized controlled trials that compared the effects of vitamin D2 and D3 supplements on blood levels found that D3 supplements tended to raise blood concentrations of the vitamin more and sustained those levels longer than D2.",
+    vp58: "Some experts cite vitamin D3 as the preferred form as it is naturally produced in the body and found in most foods that naturally contain the vitamin.",
+    vp59: "Few foods are naturally rich in vitamin D3.",
+    vp60: "The best sources are the flesh of fatty fish and fish liver oils.",
+    vp61: "Smaller amounts are found in egg yolks, cheese, and beef liver.",
+    vp62: "Certain mushrooms contain some vitamin D2; in addition, some commercially sold mushrooms contain higher amounts of D2 due to intentionally being exposed to high amounts of ultraviolet light.",
+    vp63: "Many foods and supplements are fortified with vitamin D like dairy products and cereals.",
+    vli7: "Cod liver oil",
+    vli8: "Salmon",
+    vli9: "Swordfish",
+    vli10: "Tuna fish",
+    vli11: "Orange juice fortified with vitamin D",
+    vli12: "Dairy and plant milks fortified with vitamin D",
+    vli13: "Sardines",
+    vli14: "Beef liver",
+    vli15: "Egg yolk",
+    vli16: "Fortified cereals",
+    vp64: "Vitamin D3 can be formed when a chemical reaction occurs in human skin, when a steroid called 7-dehydrocholesterol is broken down by the sun’s UVB light or so-called “tanning” rays.",
+    vp65: "The amount of the vitamin absorbed can vary widely.",
+    vp66: "The following are conditions that decrease exposure to UVB light and therefore lessen vitamin D absorption:",
+    vp67: "Note that catching the sun’s rays in a sunny office or driving in a car unfortunately won’t help to obtain vitamin D as window glass completely blocks UVB ultraviolet light.",
+    vp68: "Note that because ultraviolet rays can cause skin cancer, it is important to avoid excessive sun exposure and in general, tanning beds should not be used.",
+    vli17:
+      "Use of sunscreen; correctly applied sunscreen can reduce vitamin D absorption by more than 90%.",
+    vli18: "Wearing full clothing that covers the skin.",
+    vli19: "Spending limited time outdoors.",
+    vli20:
+      "Darker skin tones due to having higher amounts of the pigment melanin, which acts as a type of natural sunscreen.",
+    vli21:
+      "Older ages when there is a decrease in 7-dehydrocholesterol levels and changes in skin, and a population that is likely to spend more time indoors.",
+    btn51: "Deficiency",
+    btn52: "Toxicity",
+    vp69: "Vitamin D deficiency may occur from a lack in the diet, poor absorption, or having a metabolic need for higher amounts.",
+    vp70: "If one is not eating enough vitamin D and does not receive enough ultraviolet sun exposure over an extended period, a deficiency may arise.",
+    vp71: "People who cannot tolerate or do not eat milk, eggs, and fish, such as those with a lactose intolerance or who follow a vegan diet, are at higher risk for a deficiency.",
+    vp72: "Other people at high risk of vitamin D deficiency include:",
+    vli23:
+      "People with inflammatory bowel disease (ulcerative colitis, Crohn’s disease) or other conditions that disrupt the normal digestion of fat.",
+    vli24:
+      "Vitamin D is a fat-soluble vitamin that depends on the gut’s ability to absorb dietary fat.",
+    vli25:
+      "People who are obese tend to have lower blood vitamin D levels. Vitamin D accumulates in excess fat tissues but is not easily available for use by the body when needed.",
+    vli26:
+      "Higher doses of vitamin D supplementation may be needed to achieve a desirable blood level.",
+    vli27:
+      "Conversely, blood levels of vitamin D rise when obese people lose weight.",
+    vli28:
+      "People who have undergone gastric bypass surgery, which typically removes the upper part of the small intestine where vitamin D is absorbed.",
+    vp73: "Conditions resulting from prolonged vitamin D deficiency:",
+    vli29:
+      "Rickets: A condition in infants and children of soft bones and skeletal deformities caused by failure of bone tissue to harden.",
+    vli30:
+      "Osteomalacia: A condition in adults of weak and softened bones that can be reversed with supplementation.",
+    vli31:
+      "This is different than osteoporosis, in which the bones are porous and brittle and the condition is irreversible.",
+    vp74: "Vitamin D toxicity most often occurs from taking uncontrolled doses of supplements.",
+    vp75: "The low amounts of the vitamin found in food are unlikely to reach a toxic level, and a high amount of sun exposure does not lead to toxicity because excess heat on the skin prevents D3 from forming.",
+    vp76: "Symptoms of toxicity:",
+    vli32: "Anorexia",
+    vli33: "Weight loss",
+    vli34: "Irregular heart beat",
+    vli35:
+      "Hardening of blood vessels and tissues due to increased blood levels of calcium, potentially leading to damage of the heart and kidneys.",
+    slogan1: "Goodbye Anemia ... Welcome Immunity",
+    famp1: "Iron is an essential element in treating anemia specially IDA.",
+    famp2: "Absorbing Iron in the intestine needs transferrin.",
+    famp3:
+      "Lactoferrin transfer amount of Iron 3 times more than any other type of transferrin.",
+    famp4: "Vitamin C keeps Iron in the absorbable form in the intestine.",
+    famp5:
+      "In addition to the other benefits of Vitamin C as a strong antioxidant.",
+    famspan1: "Read more about",
+    btnlinks1: "Benefits",
+    btnlinks2: "Dosage & Usage",
+    btnlinks3: "Composition & nutrition facts",
+    famp6: "One capsule daily of Famferrin with its complementary formula:",
+    famli1: "Provides balanced iron concentration in the blood",
+    famli2: "Supports immunity",
+    famli3: "Protects cells against oxidative stress",
+    famli4: "Provides healthy hair and avoids hair loss",
+    famli5: "Supports healthy skin tissues",
+    famp7: "NFSA registration number 716/2020, Keep out from reach of children",
+    dosage: "Dosage:",
+    onecap: "One capsule daily or as doctor instructions.",
+    usage: "Usage",
+    famli6: "Supports immunity",
+    famli7: "For anemic patient",
+    famli8: "Hematinic and general tonic",
+    famli9: "Normal oxygen supply",
+    famli10: "Protects cells against oxidative stress",
+    famli11: "Reduces tiredness and fatigue",
+    famli12: "Influences iron utilization for optimum physical performance",
+    famli13: "Provides healthy hair and avoids hair loss",
+    famli14: "Supports healthy skin tissues",
+    famh21: "Each serving size contains",
+    slogan2: "All your Joints’ Needs",
+    staspan1:
+      "Provides most of the essential substances which form the most important parts of joints and other organs in the body.",
+    staspan2: "Glucosamine:",
+    staspan3: "Chondroitin:",
+    staspan4: "Peptides:",
+    staspan5: "MSM:",
+    staspan6: "Stavromine:",
+    stap1: "Is an essential component for the structure of joints.",
+    stap2: "A natural part for the formation of new cartilage tissue.",
+    stap3:
+      "It absorbs necessary fluids in tissues and blocks enzymes that cause joints degradation.",
+    stap4:
+      "Are responsible for sustaining organs’ structure and are the most abundant in the body, present in tendons, muscles, bones and skin.",
+    stap5: "Is an anti-inflammatory that reliefs joints pain.",
+    stap6:
+      "Is very helpful for people suffering from osteoarthritis, a type of degenerative joint disease caused by wear and tear on the joints over time.",
+    stali1:
+      "Contain potassium salt of glucosamine which does not affect the blood pressure.",
+    stali2:
+      "Contain glucosamine in the form of sulfate, Which is one of the main components of cartilage, helps to build it.",
+    stali3: "Is suitable for individuals which do not prefer oral solutions.",
+    stali4: "All components are from natural sources.",
+    stali5:
+      "Purity guaranteed – Everything we make is tested surpassing the strictest international standards for purity & quality.",
+    stap7: "NFSA registration number: 2373/2021.",
+    stali6: "Supports all joints health.",
+    stali7: "Supports the elasticity and cushioning joints.",
+    stali8: "Helps lubrication and mobility.",
+    staspan7: "Two capsules twice daily.",
+    forspan1: "Function of each component:",
+    forspan2: "Glucosamine Sulphate:",
+    forspan3: "Methyl Sulfonyl Methane:",
+    forspan4: "Chondroitin Sulphate:",
+    forspan5: "Hydrolyzed Collagen:",
+    forspan6: "Powerful 4 in 1 formula:",
+    forp1: "Maintains a healthy mobility function.",
+    forp2: "Reduces joints pain and improve function.",
+    forp3:
+      "Suppresses inflammatory pathways in the body One of the main component of the Cartilage.",
+    forp4: "Increases your joints and tissue elasticity.",
+    forli1:
+      "What makes Stavromine really stand out from other joint support supplements is its specially formulated 4-in-1 composition.",
+    forli2:
+      "Apart from glucosamine and chondroitin, it also contains MSM, an organic source of sulfur, as well as extra collagen - which also benefits your skin health.",
+    forli3:
+      "All the Support that your joints need: This Stavromine capsules, glucosamine & chondroitin nutritional supplement will make sure your joints and cartilages have all the support they need to remain in tip-top condition.",
+    forli4:
+      "Forget all about sore bones and knees: Stavromine helps sore joints and bones regain their elasticity and lubrication, relieves pain, extends your range of motion, and helps prevent further damage to your knees, hips, and other joints.",
+    forli5:
+      "Stavromine contains potassium salt of glucosamine which not affecting the blood pressure.",
+    forli6:
+      "Stavromin contains glucosamine in the form of sulfate. Which is one of the main components of cartilage, which helps to build it.",
+    forli7: "All components from a natural source.",
+    forli8:
+      "Purity guaranteed – Everything we make is tested surpassing the strictest international standards for purity & quality.",
+    slogan3: "Empower your healthy life",
+    neh2: "What is the function of Vitamin B complex?",
+    nep1: "There are 8 types of Vitamin B.",
+    nep2: "Vitamins B complex is essential:",
+    neli1: "As Coenzymes: They help us to get energy from food.",
+    neli2: "Neurotransmitters synthesis: For brain and nerve function.",
+    neli3: "A Blend of eight highly absorbable water soluble B vitamins.",
+    neli4:
+      "Expertly formulated to deliver physiologically meaningful doses of each vitamin to support daily cellular maintenance.",
+    neli5:
+      "Helps to optimize important metabolic activities throughout the body.",
+    neli6: "Once daily supplement.",
+    neli7:
+      "Purity Guarantied: Everything we make is tested surpassing the strictest international standards for purity & quality.",
+    neli8:
+      "NFSA Registration Number 717/2020, Keep out from reach of children.",
+    nep3: "Rich source of Vitamin B Complex Supports:",
+    neli9: "Healthy Brain and nervous system.",
+    neli10: "Healthy cardiovascular function.",
+    neli11: "Detoxification of toxins.",
+    neli12: "Normal cellular metabolism.",
+    neli13: "Healthy energy production.",
+    neli14: "Antioxidant protection.",
+    cdp1: "Today Vitamin D is considered more important than ever.",
+    cdp2: "Vitamin D3, a more potent and bio-available form compared to Vitamin D2, plays an active role in the absorption of Calcium and Phosphorus, the building blocks of bone health.",
+    cdp3: "With concern about the damage of long-term sun exposure, many of us are not getting the Vitamin D we need from natural sunlight, So many persons need vitamin D as supplement to enhance their bones formation and immune system.",
+    cdp4: "Vitamin C is not formed or synthesized within the human body and is necessary to enhance the body’s immunity as well as for healthy tendons and joints.",
+    cdp5: "Therefore, the individual must obtain it as a dietary supplement from an external source.",
+    cdp6: "Taking one tablet of Vavra C D boosts the body with 1,000 mg Vitamin C and 5,000.",
+    cdp7: "IU Vitamin D3.",
+    cdp8: "This dose is sufficient for strong bones and 24-hour immunity for the body.",
+    vcdp1: "Vitamin C which is important mainly for:",
+    vcdli2: "Supports Immune system",
+    vcdli3: "Enhances Collagen formation for healthy skin and joints",
+    vcdli4:
+      "Antiaging In addition to other important roles of vitamin C as an antioxidant",
+    vcdli5:
+      "Vitamin D3 It is essential vitamin for healthy bone density as it plays an important role in deposition of calcium and phosphate in the bone",
+    vcdli6: "NFSA Reg. No: 718 / 2020",
+    vcdli7: "Treats Scurvy (Vitamin C deficiency)",
+    vcdli8: "Supports immunity",
+    vcdli9: "Anti-aging for healthy skin",
+    vcdli10: "Supports circulation",
+    vcdli11: "Healthy joints and connective tissues",
+    vcdli12: "Neutralize free radicals",
+    vcdli13: "Healthy hair and avoids hair loss",
+    vcdli14: "Maintains healthy bone density measures",
+    vcdli15:
+      "Plays an active role in the absorption of Calcium and Phosphorus, the building blocks of bone health",
+    vcdspan1: "Source of Vitamin C",
+    vcdspan2: "Source of Vitamin D",
+    ellspan1: "Collagen:",
+    ellp1:
+      "Is an important and essential component for the structure of the body joints, skin, tendons, and ligaments.",
+    ellli1:
+      "Due to aging, aggressive movements, and massive exercises joints may lose collagen which may lead to many medical conditions such as osteoarthritis.",
+    ellli2:
+      "Also losing collagen affects the skin which may lead to skin lines, wrinkles and loss of hydration.",
+    ellli3:
+      "Through years and low intake of specific vitamins and minerals lead to significant loss of shining and healthy appearance of the skin and nails.",
+    ellp2:
+      "Ellenagen is formulated carefully to support your body with elements required to restore the healthy structure of joints in addition to the healthy and shiny appearance of the skin and nails:",
+    ellli4:
+      "Hydrolyzed Collagen: provides the body with the required peptides in low molecular weight that are easily absorbed through the intestine.",
+    ellli5:
+      "Hyaluronic acid: essential for the joints and skin elasticity and removes wrinkles and skin lines, Also helps your skin to retain water to stay hydrated and smooth.",
+    ellli6:
+      "Vitamin C: Contributes to normal collagen formation and helps in regeneration of the reduced form of vitamin E.",
+    ellli7:
+      "Vitamin E, Selenium and Zinc: protect your skin and nails from oxidative stress.",
+    ellli8: "Biotin: essential vitamin for healthy skin and nails.",
+    ellli9:
+      "Ellenagen is sweetened by sucralose which is a very low caloric sweetener.",
+    onesac: "One sachet daily or as doctor instructions.",
+    ellp3: "Supports health and nutrition for joints, skin and nails.",
+    vd1: "Vitamin D is an essential vitamin which is formed naturally in the body but needs adequate exposure to the sunlight.",
+    vd2: "Vitamin D is activated in the body to Vitamin D 3 which plays an important role in the deposition of calcium and phosphate in the bones.",
+    vd3: "In certain medical conditions, an external source of vitamin D is required for healthy bone density and immunity enhancement.",
+    vd1: "Vitamin D is an essential vitamin which is formed naturally in the body but needs adequate exposure to the sunlight.",
+    vd2: "Vitamin D is activated in the body to Vitamin D 3 which plays an important role in the deposition of calcium and phosphate in the bones.",
+    vd3: "In certain medical conditions, an external source of vitamin D is required for healthy bone density and immunity enhancement.",
+    ironp1:
+      "Iron is an essential mineral which helps carry oxygen in the blood.",
+    ironp2:
+      "Optimal iron level is critical for normal healthy life, strong immune system, reproductive health, healthy heart, red blood cells formation and healthy skin and eyes.",
+    ironp3:
+      "Throughout life our blood stores are often compromised; during pregnancy, menstruation, through our athletic years, post-operative or as part of the aging process.",
+    ironp4:
+      "In fact, Iron deficiency is one of the most common causes of anemia, affecting up to 30% of us!.",
+    ironp5:
+      "Formation of RBCs and so avoiding the diseases associated with Anemia, not only Iron is essential but also cofactors like Folic acid, Vitamin B 12, Vitamin B6 and Vitamin C are essential to enhance Iron absorption and RBCs formation.",
+    ironli1:
+      "Vavra Iron: Delivers Iron in the form of a bisglycinate, our form of iron has been clinically proven to be highly absorbable, The iron is bound by two molecules of glycine, which protect the iron as it travels through the digestive tract, enhancing bioavailability and tolerability.",
+    ironli2:
+      "Coupled with co-factors Vitamin C, B6, B12 plus Folinic Acid ensures that your body has all its needs for red blood cell formation, So, Vavra Iron is perfect for Anemia sufferers or those with sensitive stomachs.",
+    ironli3:
+      "Vavra Iron provides 400 μg Folic acid which is essential for RBCs formation and cell growth and differentiation in the fetus during pregnancy.",
+    ironli4:
+      "Vavra Iron provides 18 μg Vitamin B12 which is essential for RBCs formation and healthy nervous system.",
+    ironli5:
+      "Vavra Iron provides the body with 25 mg Vitamin B6 (pyridoxine) which reduces nausea sensation during pregnancy.",
+    ironli6:
+      "Vavra Iron Provides 200 mg Vitamin C which supports the immune system and enhance the absorption of Iron in the stomach.",
+    ironli7: "Supports normal level of Iron.",
+    ironli8: "Supports the body immune system.",
+    ironli9: "Supports normal formation of hemoglobin.",
+    ironli10: "Contributes to reduce tiredness and fatigue.",
+    ironli11: "Supports normal cellular growth and differentiation.",
+    ironp6:
+      "Vitamins and minerals are necessary for most of the body's biological activities, and a low level of them or a deficiency of one or more may lead to many disorders in the body functions.",
+    ironp7:
+      "A pregnant woman needs multivitamins and minerals on a regular basis under the supervision of her doctor with concentrations calculated and in accordance with international standards in order to maintain her health and the health of the fetus.",
+    ironp8:
+      "Taking vitamins and minerals during pregnancy and during breast feeding maintains the health of the mother, fetus or newborn and strengthens their immune systems.",
+    ironli12:
+      "International standard concentrations of multivitamins and minerals appropriate to support the health of the mother and fetus during all stages of pregnancy.",
+    ironli13:
+      "Fortified with Vitamin D3: which plays an important role in preserving the bones of the mother and the fetus and supporting their immunity.",
+    ironli14:
+      "Fortified with folic acid: essential for the normal growth of the maternal tissues during pregnancy.",
+    ironli15: "Includes Zinc which contributes to normal reproductive health.",
+    ironli16: "Does not contain Vitamin A which is not advised in pregnancy.",
+    ironli17:
+      "Hard gelatine capsules of Vavra preg do not contain preservatives that may be harmful to the fetus.",
+    ironli18: "Vavra Preg can be used through all stages of pregnancy.",
+    ironp9:
+      "Vavra Preg offers effective support without excessive levels of nutrients:",
+    ironp10: "NFSA Registration No: 4999/2022",
+    ironp11:
+      "Supports health and nutrition for both mother and fetus during all stages of pregnancy.",
+    slimp1: "Obesity is a complex disease involving having too much body fat.",
+    slimp2:
+      "Obesity isn't just a cosmetic concern, it's a medical problem that increases the risk of many other diseases and health problems.",
+    slimp3:
+      "These can include heart disease, diabetes, high blood pressure,high cholesterol, liver disease, sleep apnea and certain cancers.",
+    slimp4: "Body mass index, known as BMI, is often used to diagnose obesity.",
+    slimtd1: "BMI",
+    slimtd2: "Below 18.5",
+    slimtd3: "18.5-24.9",
+    slimtd4: "25.0-29.9",
+    slimtd5: "30.0 and higher",
+    slimtd6: "Weight status",
+    slimtd7: "Underweight",
+    slimtd8: "Healthy",
+    slimtd9: "Overweight",
+    slimtd10: "Obesity",
+    slimp5:
+      "If you're concerned about your weight or weight-related health problems:",
+    slimli1: "Ask your health care professional about obesity management.",
+    slimli2: "Follow healthy nutritional diet and life style.",
+    slimli3: "Follow physical exercise plan for weight management / loss.",
+    slimli4: "Weight management products helps to enhance your weight loss.",
+    slimli5:
+      "Vavra Slim contains two active ingredients and is formulated specially for weight loss without side effects and in a healthy way:",
+    slimp6: "Garcinia Cambogia extract (HCA):",
+    slimli6: "Decreases the formation of fats.",
+    slimli7: "Suppresses the feeling of hunger.",
+    slimli8:
+      "Some research has found that garcinia cambogia may improve cholesterol levels, lowering triglycerides and LDL (the bad cholesterol) and raising HDL (the good cholesterol).",
+    slimp7: "Glucomannan (Konjac):",
+    slimli9:
+      "Acts locally in the stomach by forming a gel mass which gives the feeling of fullness.",
+    slimli10:
+      "Enhances the intestinal movement to avoid maldigestion and constipation.",
+    slimli11: "NFSA Registration No.: 5000/2022",
+    twocap: "Two capsules before the main meal or as described by the doctor.",
+    slimli12:
+      "Two capsules before the main meal or as described by the doctor.",
+    vitp1:
+      "Vitamins and minerals are essential for most of the body biological activities.",
+    vitp2:
+      "Decrease their level or deficiency of one or more may lead to many disturbances in the body functions.",
+    vitp3:
+      "Individuals with some medical conditions or after bariatric surgeries highly need vitamins and minerals supplement in adequate concentrations to keep their levels in the body.",
+    vitp4:
+      "For example after gastric bypass long life vitamins and minerals are essential.",
+    vitp5:
+      "Vavra Vit is a rich source of vitamins and minerals that the body needs in the following conditions:",
+    vitp6: "NFSA Registration No.: 5001/2022",
+    vitli1:
+      "Bariatric surgeries for the treatment of obesity (bypass - sleeving surgery):",
+    vitli2:
+      "After performing these types of surgeries, food intake is reduced, and thus the body’s access to vitamins and minerals is reduced.",
+    vitli3:
+      "Vavra Vit offers specialized vitamins and minerals with various types and concentrations customized and standardized for these types of surgeries.",
+    vitli4: "Support the body immunity.",
+    vitli5:
+      "General deficiency of vitamins and minerals, which may lead to many medical conditions or general wasting and weakness.",
+    vitp7: "A rich source of Multivitamins and minerals.",
+    znp1: "Elemental Zinc is essential for most of the biological activities including enzymes and immunity enhancement.",
+    znp2: "Studies show that Zinc is also essential for male productivity and sexual ability.",
+    znp3: "Phytosterols are found only in plants, and work naturally to lower blood cholesterol, If our food contains plant products rich in phytosterols, it will work to resist and hinder the absorption of cholesterol by the intestine.",
+    znp4: "A rich source of zinc:",
+    znp5: "An important source of plant sterols:",
+    znp6: "NFSA Registration No.: 1667/2021",
+    znli1:
+      "It is included in the chemical composition of more than 300 different types of essential enzymes that control various metabolic processes.",
+    znli2: "Maintains the immune system.",
+    znli3:
+      "It is essential for male sexual health, and reasons for this could include zinc's antioxidant action and its contribution to the maintenance of normal hormone levels.",
+    znli4:
+      "It helps in the growth of damaged cells and tissues and works to restore them Zinc plays an essential role in bone formation and health and can help to prevent osteoporosis.",
+    znli5: "Enhance memory and cognitive functions.",
+    znli6:
+      "Maintaining nerve health and relieving neurological symptoms including tingling, numbness, and peripheral neuropathy.",
+    znli7: "Maintaining healthy eyes.",
+    znli8:
+      "Phytosterols will work to resist and hinder the absorption of cholesterol by the intestine.",
+    znli9:
+      "It is also raised in the scientific community the feasibility of this substance in reducing the incidence of cancer, such as stomach, pancreatic, colon, rectal, breast and prostate cancer.",
+    znli10:
+      "As the high level of animal cholesterol in the blood increases the risk of developing these cancers, so eating plant sterols reduces the absorption of animal cholesterol, thus helps to reduce the risk of prostate cancer.",
+    znli11: "Supports immunity.",
+    znli12: "Promotes bone health.",
+    znli13:
+      "Contributes to the normal function of fertilization and reproduction.",
+    getmore: "Get More",
+  },
+
+  /* ******************** */
+  /* ******************** */
+  /* ******************** */
+  /* ******************** */
+  /* ******************** */
+  /* ******************** */
+  /* ******************** */
+
+  ar: {
+    home: "الرئيسية",
+    products: "منتجاتنا",
+    articles: "مقالات",
+    about: "من نحن",
+    contact: "إتصل بنا",
+    arabic: "العربية",
+    english: "الإنجليزية",
+    choose: "اللغة",
+    core: "مبادئنا",
+    respect: "الإحترام",
+    respectp: "نحن نقدر كل شخص وعامل",
+    coll: "التعاون",
+    collp: "كل أفراد عائلة شركتنا عبارة عن تروس لدفع ماكينة واحدة للأمام",
+    acc: "المسئولية",
+    accp: "أفضل جودة ... أفضل صحة",
+    inn: "التطوير",
+    innp: "أى فكرة صغيرة تحقق مستهدفات كبيرة",
+    bel: "الإيمان",
+    belp: "بأن هناك دائماً حلم لكى نحققه",
+    product: "منتجاتنا",
+    prointro:
+      "نحن نقدم مجموعة واسعة من المنتجات التى تلبى كافة الإحتياجات الصحية لعملائنا",
+    promore: "لمزيد من التفاصيل",
+    proclick: "إضغط هنا",
+    artintro: "لأن صحتك تهمنا، نقدم لك معلومات طبية هامة",
+    artmore: "تصفح من هنا",
+    abouthead: "من نكون ؟",
+    aboutintro:
+      "يجمع فريقنا عقوداً من الخبرة فى مجالات التغذية والطب والكيمياء الحيوية والعلوم الصيدلانية، نستمر فى التعلم والنمو وتحسين منتجاتنا بناءً على أحدث الأحداث",
+    geo: "د. جورج كمال",
+    geojob: "الرئيس التنفيذى",
+    kam: "أ. كمال جرجس",
+    kamjob: "المدير العام",
+    jos: "د. جوسيان كمال",
+    josjob: "المدير التنفيذى",
+    aboutmore: "لمعرفة المزيد عنا",
+    aboutclick: "إضغط هنا",
+    ourphil:
+      "نحن لا نؤمن بأن نفس الشىء يناسب الجميع، لهذا السبب تتضمن مجموعتنا منتجات فريدة مثل الأشخاص الذين يثقون بها كل يوم",
+    conhead: "أين تجدنا ؟",
+    conp: "لا تتردد فى الإتصال بنا، فريقنا يسعد بخدمتك",
+    add: "عنواننا:",
+    addlink:
+      "مصر، الجيزة، 6 أكتوبر، المحور المركزى، أبراج سيتى ستارز، برج 3، وحدة 14",
+    email: "بريدنا الإلكترونى:",
+    phone: "أرقامنا:",
+    follow: "تابعنا:",
+    face: "فيسبوك",
+    twitter: "إكس-تويتر",
+    insta: "إنستغرام",
+    linked: "لينكدن إن",
+    filter: "تصفية المنتجات",
+    all: "الكل",
+    men: "الرجال",
+    women: "النساء",
+    bone: "العظام",
+    immunity: "المناعة",
+    pregnancy: "الحمل",
+    weiman: "إدارة الوزن",
+    famferrin: "فامفرين",
+    stavromine: "ستافرومين",
+    stavromineforte: "ستافرومين فورت",
+    vavracd: "فافرا سى دى",
+    vavrabneuro: "فافرا بى نيورو",
+    ellenagen: "إيليناجين",
+    vavrad3: "فافرا دى ثرى",
+    vavrairon: "فافرا إيرن",
+    vavrapreg: "فافرا بريج",
+    vavraslim: "فافرا سلم",
+    vavravit: "فافرا فيت",
+    zncyril: "زينسيرل",
+    benefits: "الفوائد",
+    more: "المزيد",
+    fam1: "يوفر تركيز متوازن للحديد فى الدم.",
+    fam2: "يدعم المناعة.",
+    fam3: "يحمى الخلايا من الإجهاد التأكسدى.",
+    sta1: "لا يؤثر على ضغط الدم.",
+    sta2: "يساعد على بناء الغضاريف.",
+    sta3: "جميع المكونات من مصادر طبيعية.",
+    staf1: "يوفر كل الدعم الئى تحتاجه مفاصلك.",
+    staf2: "يساعد على إستعادة مرونة المفاصل.",
+    staf3: "لا يؤثر على ضغط الدم.",
+    cd1: "يدعم جهاز المناعة.",
+    cd2: "يعزز تكوين الكولاجين للبشرة والمفاصل الصحية.",
+    cd3: "مكافحة الشيخوخة.",
+    vbn1: "يدعم عملية تجديد الخلايا اليومية.",
+    vbn2: "تساعد فى تحسين الأنشطة الهامة فى جميع أنحاء الجسم.",
+    vbn3: "تكوين النواقل العصبية لوظيفة المخ والأعصاب.",
+    ell1: "يدعم جسمك بالعناصر اللازمة لإستعادة البنية الصحية للمفاصل.",
+    ell2: "يزود الجسم بالببتيدات المطلوبة.",
+    ell3: "يحمى بشرتك وأظافرك من الإجهاد التأكسدى.",
+    d31: "يزود الجسم بـ ١٠,٠٠٠ وحدة دولية من فيتامين د ٣.",
+    d32: "يدعم مناعة الجسم.",
+    d33: "يعزز إمتصاص الكالسيوم والفوسفات وترسبها فى العظام.",
+    iron1: "يدعم المستوي الطبيعي للحديد بالجسم.",
+    iron2: "يدعم جهاز المناعة بالجسم.",
+    iron3: "يساهم في تقليل الإجهاد و التعب.",
+    preg1: "يمد الجسم بالفيتامينات والمعادن المناسبة.",
+    preg2: "يلعب دوراً هاماً فى الحفاظ على عظام الأم والجنين ودعم مناعتهم.",
+    preg3: "يشمل الزنك الذى يساهم فى الصحة الإنجابية الطبيعية.",
+    slim1: "يقلل من تكوين الدهون.",
+    slim2: "يقلل الإحساس بالجوع.",
+    slim3: "يعزز حركة الأمعاء ويقى من سوء الهضم والإمساك.",
+    vit1: "دعم مناعة الجسم.",
+    vit2: "يمد الجسم بالفيتامينات والمعادن المناسبة.",
+    vit3: "يعالج الضعف العام والهزال نتيجة نقص الفيتامينات.",
+    znc1: "يحافظ على الجهاز المناعى.",
+    znc2: "يعد ضرورياً للصحة الجنسية للذكور.",
+    znc3: "يساعد فى نمو الخلايا والأنسجة التالفة.",
+    th1: "أنيميا نقص الحديد",
+    th2: "كيف تقوى جهازك المناعى؟",
+    th3: "فيتامين د٣",
+    ida1: "يحتاج جسم الإنسان إلى خلايا الدم الحمراء (كرات الدم الحمراء) لنقل الأكسجين من الرئة إلى جميع الخلايا لحيوية الأنسجة.",
+    ida2: "الجزء النشط الرئيسي في كرات الدم الحمراء هو الهيموجلوبين الذى يحتاج إلى الحديد (Fe) بشكل أساسى لتكوينه.",
+    ida3: "فقر الدم الناجم عن نقص الحديد هو نوع شائع من فقر الدم — وهى حالة يفتقر فيها الدم إلى ما يكفى من خلايا الدم الحمراء السليمة بسبب نقص الحديد.",
+    ida4: "ونتيجة لذلك، قد يجعلك فقر الدم الناتج عن نقص الحديد متعباً وضيقاً فى التنفس.",
+    htsyi1:
+      "مع ظهور حالات العدوى والانتشار السريع للفيروسات والبكتيريا المتحولة، يبحث المزيد والمزيد من الناس عن كيفية تقوية جهاز المناعة لديهم.",
+    htsyi2:
+      "هناك العديد من الطرق لتعزيز مناعتك، وسنذكر هنا بعض الخطوات التى تساعدك على تقوية جهاز المناعة لديك.",
+    htsyi3:
+      "الطريقة الأكثر فعالية لبناء مناعة قوية هي تطوير مجموعة من العادات الجيدة.",
+    vid31:
+      "وهو فيتامين قابل للذوبان فى الدهون ومن المعروف منذ فترة طويلة أنه يساعد الجسم على إمتصاص الكالسيوم والفوسفور والإحتفاظ بهما، وكلاهما ضرورى لبناء العظام.",
+    vid32:
+      "كما تظهر الدراسات المخبرية أن فيتامين د يمكن أن يقلل من نمو الخلايا السرطانية، ويساعد فى السيطرة على العدوى وتقليل الالتهاب.",
+    vid33:
+      "تحتوى العديد من أعضاء وأنسجة الجسم على مستقبلات لفيتامين د، مما يشير إلى أدوار مهمة تتجاوز صحة العظام، ويبحث العلماء بنشاط عن وظائف أخرى محتملة.",
+    formore: "للمزيد",
+    geo1: "شغل العديد من المناصب فى مجال مراقبة الجودة فى العديد من شركات الأدوية المعروفة حتى شغل منصب نائب مدير مراقبة الجودة.",
+    geo2: "شغل العديد من المناصب فى مجال التسويق والبحث والتطوير للمنتجات الصيدلانية والمكملات الغذائية.",
+    kam1: "خبير ومستشار فى مجالات عديدة منها الإقتصاد والعمليات المصرفية والشئون المالية والضرائب.",
+    kam2: "بالإضافة إلى خبرة كبيرة فى مجال التسويق والمبيعات",
+    kam3: "كل هذه الخبرات إكتسبها من خلال مناصبه العملية السابقة:",
+    kam4: "رئيس قطاع العمليات المصرفية ببنك الإسكندرية.",
+    kam5: "عضو مجلس إدارة شركة مطاحن وسط وغرب الدلتا.",
+    kam6: "عضو مجلس إدارة فى العديد من الشركات الإستثمارية.",
+    kam7: "مستشار مالى وإدارى للعديد من الشركات الكبرى.",
+    jos1: "تتمتع بخبرة كبيرة فى مجالات الدعاية والتسويق خاصة التسويق الالكترونى.",
+    jos2: "كذلك فى مجال الأبحاث والتطوير.",
+    jos3: "خبيرة فى تسجيل الأدوية والمكملات الغذائية وفقاً للشروط والقرارات المعمول بها بالهيئات.",
+    name: "تريندى",
+    name1: "هى شركة تعمل فى مجال المكملات الغذائية والأغذية المتخصصة.",
+    name2:
+      "منذ تأسيسها فى عام 2019، نلتزم بدعم المجتمع بمنتجات عالية الفعالية والسلامة والجودة.",
+    name3:
+      "يتمتع جميع الملاك بخبرات كبيرة في مجالات الجودة والتسويق والإدارة والتمويل، والتى يستغلونها لتحقيق إلتزامهم.",
+    name4:
+      "نسعى إلى تزويد المجتمع بمجموعة واسعة من المنتجات التى تلبى معظم إحتياجات العملاء.",
+    name5: "صحتك مسؤوليتنا.",
+    name6:
+      "تنفيذاً لرؤية الشركة نحو التصنيع، قمنا بفضل الله وحمده بشراء قطعة أرض بالمنطقة الصناعية بالجيزة.",
+    name7:
+      "ومن المقرر أن يبدأ قريباً شراء الإنشاءات والمعدات، ليبدأ الإنتاج الفعلي خلال ثلاث سنوات، وفقاً لشروط العقد ومتطلبات هيئة التنمية الصناعية، بما يتماشى مع خطة بلادنا لتشجيع التصنيع وخفض فاتورة الإستيراد.",
+    vishead: "رؤيتنا",
+    vistext:
+      "نطمح بحلول عام 2026 أن نكون قد أصبحنا من أكبر 30 شركة فى مجال المكملات الغذائية فى مصر",
+    mishead: "مهمتنا",
+    mistext1: "تقديم أكبر عدد من المنتجات التى تلبى كافة رغبات عملائنا.",
+    mistext2: "تقديم منتاجات ذات كفاءة وجودة عالية بأسعار مناسبة.",
+    mistext3: "بناء فريق دعاية متعاون وقوى ذو خبرة ومهارة عالية.",
+    dropan: "الأنيميا",
+    dropimm: "المناعة",
+    dropvit: "فيتامين د٣",
+    over: "نظرة عامة",
+    over1:
+      "يحتاج جسم الإنسان إلى خلايا الدم الحمراء (كرات الدم الحمراء) لنقل الأكسجين من الرئة إلى جميع الخلايا لحيوية الأنسجة.",
+    over2:
+      "الجزء النشط الرئيسى فى كرات الدم الحمراء هو الهيموجلوبين الذى يحتاج بشكل أساسى إلى الحديد (Fe) لتكوينه.",
+    over3:
+      "فقر الدم الناجم عن نقص الحديد هو نوع شائع من فقر الدم — وهى حالة يفتقر فيها الدم إلى ما يكفي من خلايا الدم الحمراء السليمة بسبب نقص الحديد.",
+    over4:
+      "ونتيجة لذلك، قد يجعلك فقر الدم الناتج عن نقص الحديد متعباً وضيقاً فى التنفس.",
+    over5:
+      "يمكن للشخص عادةً تصحيح فقر الدم الناتج عن نقص الحديد باستخدام مكملات الحديد.",
+    over6:
+      "فى بعض الأحيان يكون من الضرورى إجراء إختبارات أو علاجات إضافية لفقر الدم الناجم عن نقص الحديد، خاصة إذا كان طبيبك يشتبه فى أنك تعانى من نزيف داخلى.",
+    symhead: "الأعراض",
+    symtext:
+      "بدون فحص دورى أو إختبار صورة الدم الكاملة تمر الحالات الخفيفة من أنيميا نقص الحديد دون أن يلاحظها أحد، ولكن مع زيادة نقص الحديد فى الجسم وتفاقم فقر الدم سيبدأ التعرف على العلامات والأعراض، وقد تشمل علامات أنيميا نقص الحديد وأعراضها ما يلى:",
+    sym1: "التعب الشديد",
+    sym2: "ضعف",
+    sym3: "جلد شاحب",
+    sym4: "ألم فى الصدر وسرعة ضربات القلب أو ضيق فى التنفس",
+    sym5: "صداع أو دوار",
+    sym6: "برودة اليدين والقدمين",
+    sym7: "إلتهاب أو وجع فى اللسان",
+    sym8: "ضعف الأظافر وهشاشتها",
+    sym9: "الرغبة الشديدة فى تناول المواد غير الغذائية مثل الثلج والنشا",
+    sym10: "ضعف الشهية خاصة عند الرضع والأطفال",
+    causes: "الأسباب",
+    cautext1:
+      "تحدث أنيميا نقص الحديد عندما لا يحتوى جسمك على ما يكفى من الحديد لإنتاج الهيموجلوبين.",
+    cautext2:
+      "إذا كنت لا تستهلك ما يكفى من الحديد أو إذا كنت تفقد الكثير من الحديد فلن يتمكن جسمك من إنتاج ما يكفى من الهيموجلوبين وسيتطور فقر الدم الناجم عن نقص الحديد فى النهاية، تشمل أسباب أنيميا نقص الحديد ما يلى:",
+    span1: "فقدان الدم",
+    span2: "نقص الحديد فى النظام الغذائى",
+    span3: "سوء إمتصاص الحديد",
+    span4: "الحمل",
+    olp1: "يحتوى الدم على الحديد داخل خلايا الدم الحمراء لذا إذا فقدت الدم فستفقد بعض الحديد.",
+    olp2: "يتم إمتصاص الحديد من الطعام إلى مجرى الدم من خلال الأمعاء الدقيقة، ويحتاج الحديد إلى الترانسفيرين ليتم إمتصاصه، ويتمتع اللاكتوفيرين بالقدرة على نقل الحديد داخل الأمعاء ٣ مرات أكثر من الترانسفيرينات الأخرى، وقد يحدث سوء إمتصاص الحديد بسبب:",
+    olulli1:
+      "النساء اللائى يعانين من النزف الشديد اثناء الدورة الشهرية (الحيض).",
+    olulli2:
+      "بعض الحالات الطبية مثل: قرحة الجهاز الهضمى، فتق الحجاب الحاجز، ورم القولون أو سرطان القولون والمستقيم.",
+    olulli3:
+      "يمكن أن ينتج نزيف الجهاز الهضمى عن الإستخدام المنتظم لبعض مسكنات الآلام التى لا تستلزم وصفة طبية، وخاصة الأسبرين.",
+    olulli4:
+      "فى حالة تناول كمية قليلة جداً من الحديد يمكن أن يصاب جسمك بنقص الحديد بمرور الوقت.",
+    olulli5:
+      "تشمل الأمثلة على الأطعمة الغنية بالحديد: اللحوم والبيض والخضروات ذات الأوراق الخضراء والأطعمة المدعمة بالحديد.",
+    olulli6:
+      "من أجل النمو السليم والتطور يحتاج الرضع والأطفال إلى الحديد فى وجباتهم الغذائية أيضاً.",
+    olulli7:
+      "الإضطرابات المعوية مثل مرض الإضطرابات الهضمية والتى تؤثر على قدرة الأمعاء على إمتصاص العناصر الغذائية من الطعام المهضوم يمكن أن تؤدى إلى فقر الدم الناجم عن نقص الحديد.",
+    olulli8:
+      "إذا تم تجاوز جزء من الأمعاء الدقيقة أو إزالته جراحياً فقد يؤثر ذلك على قدرتك على إمتصاص الحديد والمواد المغذية الأخرى.",
+    olulli9:
+      "بدون مكملات الحديد يحدث فقر الدم الناجم عن نقص الحديد فى العديد من النساء الحوامل لأن مخازن الحديد لديهن تحتاج إلى زيادة حجم دمهن بالإضافة إلى أن يكون مصدراً للهيموجلوبين للجنين النامى.",
+    risk: "الحالات الأكثر عرضة للأنيميا",
+    risktext:
+      "قد تكون هذه المجموعات من الأشخاص أكثر عرضة للإصابة بأنيميا نقص الحديد:",
+    span5: "النساء",
+    span6: "الرضع والأطفال",
+    span7: "النباتيون",
+    span8: "المتبرعون بالدم بشكل متكرر",
+    olp3: "نظراً لأن النساء يفقدن الدم أثناء الحيض فإن النساء بشكل عام أكثر عرضة للإصابة بفقر الدم الناجم عن نقص الحديد.",
+    olp4: "الرضع وخاصة أولئك الذين يعانون من نقص الوزن عند الولادة أو الذين ولدوا قبل الأوان والذين لا يحصلون على ما يكفى من الحديد من حليب الثدى أو الحليب الإصطناعى قد يكونون عرضة لخطر الإصابة بنقص الحديد، ولذلك يحتاج الأطفال إلى حديد إضافى أثناء طفرات النمو، إذا كان طفلك لا يتناول نظاماً غذائياً صحياً ومتنوعاً فقد يكون معرضاً لخطر الإصابة بالأنيميا.",
+    olp5: "قد يكون الأشخاص الذين لا يأكلون اللحوم أكثر عرضة للإصابة بأنيميا نقص الحديد إذا لم يتناولوا أطعمة أخرى غنية بالحديد.",
+    olp6: "قد يكون الأشخاص الذين يتبرعون بالدم بشكل روتينى أكثر عرضة للإصابة بأنيميا نقص الحديد لأن التبرع بالدم يمكن أن يستنفد مخازن الحديد ولذلك إذا قيل لك إنه لا يمكنك التبرع بالدم بسبب إنخفاض الهيموجلوبين فإستشر طبيبك على الفور.",
+    comhead: "المضاعفات",
+    comtext:
+      "يمكن أن تصبح أنيميا نقص الحديد غير المعالجة شديدة وقد تؤدى إلى مشاكل صحية بما فى ذلك ما يلى:",
+    span9: "مشاكل قلبية",
+    span10: "مشاكل أثناء الحمل",
+    span11: "مشاكل النمو",
+    olp7: "تسارع أو عدم إنتظام ضربات القلب.",
+    olp8: "فى النساء الحوامل تم ربط أنيميا نقص الحديد بالولادات المبكرة وإنخفاض وزن الأطفال عند الولادة.",
+    olp9: "عند الرضع والأطفال يمكن أن يؤدى نقص الحديد الشديد إلى فقر الدم وكذلك تأخر النمو والتطور مع زيادة التعرض للعدوى.",
+    pathead: "الوقاية والعلاج",
+    pattext:
+      "يمكنك تقليل خطر الإصابة بفقر الدم الناجم عن نقص الحديد عن طريق إختيار الأطعمة الغنية بالحديد.",
+    span12: "إختر الأطعمة الغنية بالحديد",
+    span13: "إختيار الأطعمة التى تحتوى على فيتامين سى لتعزيز إمتصاص الحديد",
+    span14: "تناول المكملات الغذائية",
+    olp10: "تشمل الأطعمة الغنية بالحديد ما يلى",
+    olp11: "يمتص جسمك الحديد من اللحوم أكثر مما يمتصه من مصادر أخرى.",
+    olp12:
+      "يمكنك تعزيز إمتصاص جسمك للحديد عن طريق شرب عصائر الحمضيات أو تناول الأطعمة الأخرى الغنية بفيتامين C فى نفس الوقت الذى تتناول فيه الأطعمة الغنية بالحديد، يساعد فيتامين C الموجود فى عصائر الحمضيات، مثل عصير البرتقال جسمك على إمتصاص العناصر الغذائية بشكل أفضل ويوجد فيتامين C أيضاً فى:",
+    olp13:
+      "أكثر المكملات الغذائية المفضلة التى تدعم علاج فقر الدم الناجم عن نقص الحديد أو الوقاية منها هى تلك التى تحتوى على:",
+    olulli10: "اللحوم الحمراء ولحم الخنزير والدواجن",
+    olulli11: "مأكولات بحرية",
+    olulli12: "فول",
+    olulli13: "الخضراوات ذات الأوراق الخضراء الداكنة ، مثل السبانخ",
+    olulli14: "الفاكهة المجففة مثل الزبيب والمشمش",
+    olulli15: "الحبوب والخبز والمعكرونة المدعمة بالحديد",
+    olulli16: "بازيلاء",
+    olulli17: "الجريب فروت",
+    olulli18: "الكيوى",
+    olulli19: "الخضروات الورقية",
+    olulli20: "الشمام",
+    olulli21: "البرتقال",
+    olulli22: "الفلفل",
+    olulli23: "الفراولة",
+    olulli24: "اليوسفى",
+    olulli25: "البروكلى",
+    olulli26: "كمية كافية من الحديد.",
+    olulli27: "مصدر لفيتامين سى لتعزيز إمتصاص الحديد.",
+    olulli28:
+      "مصدر الترانسفيرين مثل اللاكتوفيرين بإعتباره البروتين الرئيسى المسؤول عن إمتصاص الحديد من خلال الأمعاء الدقيقة.",
+    span15: "تجنب التوتر",
+    span16: "نمط الحياة الصحى",
+    span17: "اتباع تعليمات الطبيب",
+    span18: "المكملات الغذائية مثل الفيتامينات والمعادن",
+    text1:
+      "مع ظهور حالات العدوى والإنتشار السريع للفيروسات والبكتيريا المتحولة، يبحث المزيد والمزيد من الأفراد عن كيفية تقوية جهاز المناعة لديهم.",
+    text2:
+      "هناك طرق عديدة لتعزيز مناعتك، وسنذكر هنا بعض الخطوات التى تساعدك على تقوية جهازك المناعى.",
+    text3:
+      "الطريقة الأكثر فعالية لبناء مناعة قوية هى تطوير مجموعة من العادات الجيدة، إن إتباعك هذه العادات تحدث نقلة فعالة فى مناعتك من الضعف الى القوة.",
+    olp14:
+      "تشير العديد من الدراسات إلى أن التوتر المستمر والتفكير الزائد وحتى الأفكار السلبية قد تؤدى إلى إضعاف المناعة، مما يجعلك تمرض بسهولة وتكرار العدوى.",
+    olp15:
+      "إن الغذاء الصحى، والتنظيم الجيد لتناول الوجبات، والنوم الكافى، وممارسة التمارين البدنية بإنتظام هى مفاتيح هامة لصحة الجهاز المناعى.",
+    olp16:
+      "تشير الدراسات إلى أن الكثير من الأشخاص لا يلتزمون بتعليمات الطبيب فيما يتعلق باستخدامات الدواء وجرعاته.",
+    olp17:
+      "وبالتالى يتأثر الجهاز المناعى بهذه السلوكيات وقد يؤدي إلى تكرار الإصابة بالعدوى بل وظهور مقاومة للعلاج.",
+    olp18:
+      "مثل تناول المضادات الحيوية بطرية غير صحية أو دون داعى يؤدى إلى جيل جديد من البكتيريا التى تقاوم المناعة والمضادات الحيوية.",
+    olp19:
+      "بعض الفيتامينات لا يتم تصنيعها بشكل طبيعى فى جسم الإنسان مثل فيتامين ج وفيتامين ب ١٢ والبعض الآخر يحتاج للتنشيط لذلك يعتمد ذلك على الحالة الصحية للجسم مثل فيتامين د وفيتامين ه وحمض الفوليك يتم توفير الفيتامينات والمعادن للجسم بشكل رئيسى من خلال الغذاء الصحى.",
+    olp20:
+      "بسبب نمط الحياة الحديث والعادات غير الصحية، فإن دعم الجسم بالمكملات الغذائية التى تحتوى على مقويات المناعة أمر مهم لحياة صحية.",
+    olp21:
+      "يدعم مناعة الجسم بإثنين من أهم مقوية المناعة المعروفة حديثاً وهم ١٠٠٠مجم فيتامين ج و ٥٠٠٠ وحدة دولية من فيتامين د٣ (وهو الشكل الفعال لفيتامين د بالجسم).",
+    vp1: "إنه فيتامين قابل للذوبان فى الدهون ومن المعروف منذ فترة طويلة أنه يساعد الجسم على إمتصاص الكالسيوم والفوسفور والإحتفاظ بهما، وكلاهما ضرورى لبناء العظام.",
+    vp2: "كما تظهر الدراسات المخبرية أن فيتامين د يمكن أن يقلل من نمو الخلايا السرطانية، ويساعد في السيطرة على العدوى وتقليل الإلتهاب.",
+    vp3: "تحتوى العديد من أعضاء وأنسجة الجسم على مستقبلات لفيتامين د، مما يشير إلى أدوار مهمة تتجاوز صحة العظام، ويبحث العلماء بنشاط عن وظائف أخرى محتملة.",
+    vp4: "تحتوى بعض الأطعمة بشكل طبيعى على فيتامين د، على الرغم من أن بعض الأطعمة مدعمة بالفيتامين.",
+    vp5: "بالنسبة لمعظم الناس، فإن أفضل طريقة للحصول على ما يكفى من فيتامين د هى تناول المكملات الغذائية لأنه من الصعب تناول ما يكفى من خلال الطعام.",
+    vp6: "تتوفر مكملات فيتامين د فى شكلين: فيتامين د2 (إرغوكالسيفيرول أو ما قبل فيتامين د) وفيتامين د3 (كوليكالسيفيرول).",
+    vp7: "كلاهما أيضاً من الأشكال الطبيعية التى يتم إنتاجها فى وجود أشعة الشمس فوق البنفسجية (UVB)، ومن هنا لقبها، فيتامين أشعة الشمس، ولكن يتم إنتاج د٢ فى النباتات والفطريات و د٣ فى الحيوانات، بما فى ذلك البشر.",
+    vh1: "مستوى فيتامين د فى العالم على نطاق واسع:",
+    vp8: "الكمية اليومية الموصى بها (RDA): للبالغين من عمر 19 عامًا فما فوق، تبلغ 600 وحدة دولية يوميًا للرجال والنساء، وللبالغين الذين تزيد أعمارهم عن 70 عامًا، تبلغ 800 وحدة دولية يوميًا، وهذا للأفراد الذين لديهم مستوى طبيعي من فيتامين د.",
+    vp9: "يعاني ما يقدر بنحو مليار شخص من مستويات غير كافية من فيتامين د في دمائهم، ويمكن العثور على النقص في جميع الأعراق والفئات العمرية.",
+    vp10: "وفي البلدان الصناعية، يشهد الأطباء عودة ظهور مرض الكساح، وهو المرض الذي يضعف العظام والذي تم القضاء عليه إلى حد كبير من خلال تعزيز فيتامين د.",
+    vp11: "أصدر معهد الطب (IOM) في نوفمبر 2010 توصيات بزيادة تناول فيتامين د اليومي للأطفال والبالغين في الولايات المتحدة وكندا، إلى 600 وحدة دولية يوميًا.",
+    vp12: "على الرغم من أن بعض المجموعات مثل جمعية الغدد الصماء توصي بـ 1500 إلى 2000 وحدة دولية يوميًا للوصول إلى مستويات مصلية كافية من فيتامين د.",
+    vli1: "يمد جسمك بـ ٥٠٠٠ وحدة دولية",
+    vli2: "يمد جسمك بـ ١٠,٠٠٠ وحدة دولية من فيتامين د٣، الشكل النشط من فيتامين د، وهذا يعطى لجسمك كافة الفوائد من فيتامين د بفاعلية.",
+    btn1: "تأثير فيتامين د على الصحة العامة",
+    btn2: "هل هناك فرق بين مكملات فيتامين د٣ وفيتامين د٢ ؟",
+    btn3: "مصادر الطعام",
+    btn4: "دور الأشعة فوق البنفسجية لفيتامين د",
+    btn5: "علامات النقص والسمية",
+    btn11: "١- قوة العظام والعضلات",
+    btn12: "٢- مناعة الجسم",
+    btn13: "٣- أمراض القلب",
+    vp13: "كما ذكرنا من قبل، فيتامين د هو المسؤول عن الكالسيوم والفوسفور فى العظام، وهما اللبنات الأساسية للعظام.",
+    vp14: "تربط العديد من الدراسات بين انخفاض مستويات فيتامين د فى الدم وزيادة خطر الإصابة بالكسور لدى كبار السن.",
+    vp15: "تشير بعض الدراسات إلى أن تناول مكملات فيتامين د بكميات معينة قد يمنع مثل هذه الكسور.",
+    vp16: "نظرت ١٢ تجربة عشوائية محكومة شملت أكثر من ٤٢٠٠٠  شخص تزيد أعمارهم عن 65 عاماً معظمهم من النساء، فى تناول مكملات فيتامين د مع أو بدون الكالسيوم، ومع الكالسيوم أو الدواء الوهمى.",
+    vp17: "وجد الباحثون أن تناول كميات أكبر من مكملات فيتامين د - حوالى ٥٠٠ - ٨٠٠  وحدة دولية فى اليوم - يقلل من كسور الورك وغير العمود الفقرى بنحو ٢٠%، فى حين فشل تناول كميات أقل (٤٠٠ وحدة دولية أو أقل) فى تقديم أى فائدة للوقاية من الكسور.",
+    vp18: "قد يساعد فيتامين د على زيادة قوة العضلات عن طريق الحفاظ على ألياف العضلات، مما يساعد بدوره على منع السقوط، وهى مشكلة شائعة تؤدى إلى إعاقة كبيرة والوفاة لدى كبار السن.",
+    vp19: "وجد تحليل مشترك لدراسات متعددة أن تناول ٧٠٠ إلى ١٠٠٠ وحدة دولية من فيتامين د يومياً يقلل من خطر السقوط بنسبة ١٩٪، لكن تناول ٢٠٠ إلى ٦٠٠ وحدة دولية يومياً لم يقدم أى حماية من هذا القبيل.",
+    vp20: "وسنسلط الضوء هنا على تأثير تناول فيتامين د ونقصه على بعض الأمراض:",
+    btn121: "التصلب المتعدد",
+    btn122: "مرض السكرى من النوع الأول",
+    btn123: "مرض السكرى من النوع الثانى",
+    btn124: "الأنفلونزا ونزلات البرد وكوفيد-١٩",
+    btn125: "حالات المناعة الذاتية الأخرى",
+    vp21: "هو مرض يظهر بسبب إلتهاب أو تلف الغشاء العازل للخلايا العصبية والحبل الشوكى، ويتزايد معدل الإصابة بالتصلب المتعدد فى كل من البلدان المتقدمة والنامية لأسباب غير واضحة.",
+    vp22: "وقد تم تعزيز هذا الإستنتاج بشكل كبير من خلال الأدلة الحديثة التى تشير إلى أن المستويات المنخفضة المحددة وراثياً من فيتامين (د) تنبئ بإرتفاع خطر الإصابة بالتصلب المتعدد.",
+    vli3: "وجدت دراسة إستطلاعية عن تناول فيتامين د أن النساء اللاتى تناولن كمية يومية تزيد عن ٤٠٠ وحدة دولية كان لديهن خطر أقل بنسبة ٤٠٪ للإصابة بمرض التصلب العصبى المتعدد.",
+    vli4: "فى دراسة أجريت على الشباب الأصحاء فى الولايات المتحدة، كان الرجال والنساء البيض الذين لديهم أعلى مستويات فيتامين د فى الدم أقل عرضة للإصابة بمرض التصلب العصبى المتعدد بنسبة ٦٢٪ مقارنة بأولئك الذين لديهم أدنى مستويات فيتامين د.",
+    vli5: "وجدت دراسة أخرى أجريت على الشباب من السويد أيضاً إنخفاض خطر الإصابة بمرض التصلب العصبى المتعدد بنسبة ٦١٪ مع إرتفاع مستويات فيتامين د فى الدم.",
+    vli6: "وجدت دراسة إستطلاعية بين الشابات الفنلنديات أن إنخفاض مستويات فيتامين د فى الدم إرتبط بزيادة خطر الإصابة بمرض التصلب العصبى المتعدد بنسبة ٤٣٪.",
+    vp23: "تأتى الأدلة المبكرة التى تشير إلى أن فيتامين د قد يلعب دوراً فى مرض السكرى من النوع الأول من دراسة إستمرت ٣٠ عاماً وتابعت أكثر من ١٠ ألاف طفل فنلندى منذ ولادتهم.",
+    vp24: "الأطفال الذين تلقوا مكملات فيتامين د بإنتظام خلال مرحلة الطفولة كان لديهم خطر أقل بنسبة ٩٠٪ تقريباً للإصابة بمرض السكرى من النوع الأول من أولئك الذين لم يتلقوا المكملات الغذائية.",
+    vp25: "حوالى ٤٠٪ من حالات مرض السكرى من النوع الأول تبدأ فى مرحلة البلوغ.",
+    vp26: "وجدت دراسة مستقبلية بين الشباب الأصحاء فى الولايات المتحدة أن الأفراد البيض الذين لديهم أعلى مستويات فيتامين د فى الدم لديهم خطر أقل بنسبة ٤٤٪ للإصابة بمرض السكرى من النوع الأول فى مرحلة البلوغ من أولئك الذين لديهم أدنى المستويات.",
+    vp27: "لكن المزيد من الأبحاث مطلوبة بخصوص هذا الشأن.",
+    vp28: "قد يؤثر نقص فيتامين د سلباً على المسارات البيوكيميائية التى تؤدى إلى تطور مرض السكرى من النوع الثانى، بما فى ذلك ضعف وظيفة خلايا بيتا فى البنكرياس، ومقاومة الأنسولين، والإلتهابات.",
+    vp29: "أظهرت الدراسات الرصدية أن إرتفاع مستويات فيتامين د فى الدم يرتبط بإنخفاض معدلات الإصابة بالسكرى من النوع الثانى.",
+    vp30: "وتمت متابعة أكثر من ٨٣ ألف إمرأة لا تعانى من مرض السكرى فى الأساس فى دراسة صحة الممرضات لتطوير مرض السكرى من النوع الثانى.",
+    vp31: "تم تقييم تناول فيتامين د والكالسيوم من النظام الغذائى والمكملات الغذائية طوال الدراسة التى إستمرت ٢٠ عاماً.",
+    vp32: "وجد الباحثون أنه عند مقارنة النساء اللاتى حصلن على جرعات عالية من فيتامين د من المكملات الغذائية مع النساء اللاتى تناولن جرعات أقل، كان هناك خطر أقل بنسبة ١٣٪ للإصابة بمرض السكرى من النوع الثانى.",
+    vp33: "وكان التأثير أقوى عندما تم دمج فيتامين د مع الكالسيوم: كان هناك خطر أقل بنسبة ٣٣٪ للإصابة بمرض السكرى من النوع الثانى لدى النساء عند مقارنة الجرعة الأعلى من الكالسيوم وفيتامين د من المكملات الغذائية (> ١٢٠٠ملغ،> ٨٠٠ وحدة دولية يومياً) مع أقل جرعة (<٦٠٠ملغ، ٤٠٠ وحدة دولية).",
+    vp34: "تكون مستويات فيتامين د فى أدنى مستوياتها فى أشهر الشتاء.",
+    vp35: "يعمل الشكل النشط من فيتامين د على تخفىف الإستجابة الإلتهابية الضارة لبعض خلايا الدم البيضاء، بينما يعزز أيضاً إنتاج الخلايا المناعية للبروتينات المقاومة للميكروبات.",
+    vp36: "الأطفال الذين يعانون من الكساح الناجم عن نقص فيتامين د هم أكثر عرضة للإصابة بالتهابات الجهاز التنفسى، فى حين يبدو أن الأطفال الذين يتعرضون لأشعة الشمس لديهم مناعة أقوى ضد إلتهابات الجهاز التنفسى.",
+    vp37: "البالغون الذين لديهم مستويات منخفضة من فيتامين د هم أكثر عرضة للإصابة بالسعال أو البرد أو عدوى الجهاز التنفسى العلوى مؤخراً.",
+    vp38: "على الرغم من أن التجارب المعشاة ذات الشواهد التى تستكشف إمكانات فيتامين د فى الوقاية من إلتهابات الجهاز التنفسى الحادة الأخرى قد أسفرت عن نتائج مختلطة، إلا أن التحليل الكبير لبيانات المشاركين الأفراد أشار إلى أن مكملات فيتامين د اليومية أو الأسبوعية تقلل من خطر الإصابة بإلتهابات الجهاز التنفسى الحادة.",
+    vp39: "أثارت نتائج هذا التحليل الى إحتمال أن إنخفاض مستويات فيتامين د قد يزيد أيضاً من خطر الإصابة بفيروس كورونا أو من خطورته.",
+    vp40: "على الرغم من عدم وجود دليل مباشر على هذه المسألة لأنه مرض جديد، إلا أن تجنب المستويات المنخفضة من فيتامين د أمر منطقى لهذا السبب ولأسباب أخرى.",
+    vp41: "وبالتالى، إذا كان هناك سبب للإعتقاد بأن المستويات قد تكون منخفضة، مثل البشرة الداكنة أو التعرض المحدود لأشعة الشمس، فإن تناول مكمل غذائى قدره ١٠٠٠ أو ٢٠٠٠ وحدة دولية يومياً أمر معقول.",
+    vp42: "هذه الكمية هى ألان جزء من العديد من مكملات الفيتامينات المتعددة القياسية والغير مكلفة.",
+    vp43: "وجدت تجربة فيتامين د وأوميجا ٣، وهى تجربة تمت على أكثر من ٢٥٠٠٠ رجل وإمرأة تتراوح أعمارهم بين ٥٠ عاماً فما فوق، أن تناول مكملات فيتامين د (٢٠٠٠ وحدة دولية / يوم) لمدة خمس سنوات، أو مكملات فيتامين د مع أحماض أوميجا ٣ الدهنية البحرية (١٠٠٠ ملجم/يوم)، قللت من الإصابة بأمراض المناعة الذاتية بحوالى ٢٢٪.",
+    vp44: "وشملت حالات المناعة الذاتية التى تمت ملاحظتها إلتهاب المفاصل الروماتويدى، والصدفية، وألم العضلات الروماتيزمى، وأمراض الغدة الدرقية المناعية الذاتية (إلتهاب الغدة الدرقية هاشيموتو، ومرض جريفز).",
+    vp45: "الجرعات الموجودة فى هذه المكملات متاحة على نطاق واسع ويمكن تحملها بشكل عام.",
+    vp46: "أوصى الدارسون بإجراء تجارب إضافية لإختبار فعالية هذه المكملات لدى السكان الأصغر سناً والأشخاص المعرضين لخطر الإصابة بأمراض المناعة الذاتية.",
+    vp47: "القلب هو فى الأساس عضلة كبيرة، ومثل العضلات الهيكلية، لديه مستقبلات لفيتامين د.",
+    vp48: "يتم تنظيم الخلايا المناعية والإلتهابية التى تلعب دوراً فى أمراض القلب والأوعية الدموية مثل تصلب الشرايين عن طريق فيتامين د.",
+    vp49: "يساعد الفيتامين أيضاً فى الحفاظ على مرونة الشرايين وإسترخائها، مما يساعد بدوره على التحكم فى إرتفاع ضغط الدم.",
+    vp50: "فى دراسة متابعة المهنيين الصحيين تمت متابعة ما يقرب من ٥٠٠٠٠ رجل سليم لمدة ١٠ سنوات.",
+    vp51: "أولئك الذين لديهم أدنى مستويات فيتامين د كانوا أكثر عرضة للإصابة بنوبة قلبية بمقدار الضعف مقارنة بالرجال الذين لديهم أعلى المستويات.",
+    vp52: "وقد وجدت التحليلات للدراسات الوبائية أن الأشخاص الذين لديهم أدنى مستويات من فيتامين د فى الدم لديهم زيادة كبيرة فى خطر الإصابة بالسكتات الدماغية وأى حالة من أمراض القلب مقارنة مع أولئك الذين لديهم مستويات أعلى.",
+    vp53: "إذا قمت بشراء مكملات فيتامين د، فقد ترى شكلين مختلفين: فيتامين د٢ وفيتامين د٣.",
+    vp54: "يتم تصنيع فيتامين د٢ من النباتات ويوجد فى الأطعمة المدعمة وبعض المكملات الغذائية.",
+    vp55: "يتم إنتاج فيتامين د٣ بشكل طبيعى فى جسم الإنسان ويوجد فى الأطعمة الحيوانية.",
+    vp56: "هناك جدل مستمر حول ما إذا كان فيتامين د٣ {كوليكالسيفيرول} أفضل من فيتامين د٢ {إرغوكالسيفيرول} فى زيادة مستويات الفيتامين فى الدم.",
+    vp57: "وجد من خلال التحاليل التى قارنت تأثيرات مكملات فيتامين د ٢ ود ٣ على مستويات الدم أن مكملات د ٣ تميل إلى رفع تركيزات الفيتامين فى الدم بشكل أكبر وتحافظ على تلك المستويات لفترة أطول من د ٢.",
+    vp58: "يشير بعض الخبراء إلى أن فيتامين د٣ هو الشكل المفضل لأنه يتم إنتاجه بشكل طبيعى فى الجسم ويوجد فى معظم الأطعمة التى تحتوى على الفيتامين بشكل طبيعى.",
+    vp59: "القليل من الأطعمة غنية بشكل طبيعى بفيتامين د ٣.",
+    vp60: "أفضل المصادر هى لحم الأسماك الدهنية وزيوت كبد السمك.",
+    vp61: "توجد كميات أقل فى صفار البيض والجبن وكبد البقر.",
+    vp62: "تحتوى بعض أنواع الفطر على بعض فيتامين د٢، بالإضافة إلى ذلك، تحتوى بعض أنواع الفطر المباعة تجارياً على كميات أعلى من د ٢ بسبب تعرضها عمداً لكميات عالية من الأشعة فوق البنفسجية.",
+    vp63: "يتم تعزيز العديد من الأطعمة والمكملات الغذائية بفيتامين د مثل منتجات الألبان والحبوب.",
+    vli7: "زيت كبد الحوت",
+    vli8: "سمك السالمون",
+    vli9: "سمك أبو سيف",
+    vli10: "سمك التونة",
+    vli11: "عصير البرتقال المدعم بفيتامين د",
+    vli12: "الألبان والحليب النباتى المدعم بفيتامين د",
+    vli13: "السردين",
+    vli14: "لحم كبد البقر",
+    vli15: "صفار البيض",
+    vli16: "الحبوب المدعمة",
+    vp64: "يمكن أن يتشكل فيتامين د٣ عندما يحدث تفاعل كيميائى فى جلد الإنسان، عندما يتم تكسير الستيرويد المسمى ٧-ديهيدروكوليستيرول بواسطة ضوء الشمس فوق البنفسجية (ب) أو ما يسمى بأشعة {الدباغة}.",
+    vp65: "يمكن أن تختلف كمية الفيتامين الممتصة بشكل كبير.",
+    vp66: "فيما يلي الحالات التى تقلل من التعرض للأشعة فوق البنفسجية وبالتالى تقلل من إمتصاص فيتامين د:",
+    vp67: "لاحظ أن التعرض لأشعة الشمس فى مكتب مشمس أو قيادة السيارة للأسف لن يساعد فى الحصول على فيتامين د لأن زجاج النوافذ يحجب الأشعة فوق البنفسجية تماماً.",
+    vp68: "لاحظ أنه نظراً لأن الأشعة فوق البنفسجية يمكن أن تسبب سرطان الجلد، فمن المهم تجنب التعرض المفرط لأشعة الشمس وبشكل عام، لا ينبغى إستخدام أسرة تسمير البشرة.",
+    vli17:
+      "إستخدام واقى الشمس، إن استخدام واقى الشمس بشكل صحيح يمكن أن يقلل من إمتصاص فيتامين د بنسبة تزيد عن ٩٠٪.",
+    vli18: "إرتداء الملابس الكاملة التى تغطى الجلد.",
+    vli19: "قضاء وقت محدود فى الهواء الطلق.",
+    vli20:
+      "لون البشرة الداكن، بسبب إحتوائها على كميات أكبر من صبغة الميلانين، التى تعمل كنوع من واقى الشمس الطبيعى.",
+    vli21:
+      "الأعمار الأكبر عندما يكون هناك إنخفاض فى مستويات ٧-ديهيدروكوليسترول وتغيرات فى الجلد، والسكان الذين من المرجح أن يقضوا المزيد من الوقت فى الأماكن المغلقة.",
+    btn51: "علامات نقص فيتامين د",
+    btn52: "التسمم بفيتامين د",
+    vp69: "قد يحدث نقص فيتامين د بسبب نقص النظام الغذائى، أو سوء الامتصاص، أو وجود حاجة أيضية لكميات أعلى.",
+    vp70: "إذا لم يتناول الشخص ما يكفى من فيتامين د ولم يحصل على ما يكفى من التعرض لأشعة الشمس فوق البنفسجية على مدى فترة طويلة، فقد ينشأ نقص.",
+    vp71: "الأشخاص الذين لا يستطيعون تحمل أو لا يأكلون الحليب والبيض والأسماك، مثل أولئك الذين يعانون من عدم تحمل اللاكتوز أو الذين يتبعون نظاماً غذائياً نباتياً، يكونون أكثر عرضة للإصابة بالنقص.",
+    vp72: "الأشخاص الآخرون المعرضون لخطر الإصابة بنقص فيتامين د هم:",
+    vli23:
+      "الأشخاص الذين يعانون من مرض إلتهاب الأمعاء (إلتهاب القولون التقرحى، مرض كرون) أو غيرها من الحالات التى تعطل الهضم الطبيعى للدهون.",
+    vli24:
+      "فيتامين د هو فيتامين قابل للذوبان فى الدهون ويعتمد على قدرة الأمعاء على إمتصاص الدهون الغذائية.",
+    vli25:
+      "يميل الأشخاص الذين يعانون من السمنة المفرطة إلى إنخفاض مستويات فيتامين د فى الدم، يتراكم فيتامين د فى الأنسجة الدهنية الزائدة ولكن ليس من السهل أن يستخدمه الجسم عند الحاجة.",
+    vli26:
+      "قد تكون هناك حاجة إلى جرعات أعلى من مكملات فيتامين د للوصول إلى مستوى الدم المرغوب فيه.",
+    vli27:
+      "وعلى العكس من ذلك، ترتفع مستويات فيتامين د فى الدم عندما يفقد الأشخاص الذين يعانون من السمنة المفرطة الوزن.",
+    vli28:
+      "الأشخاص الذين خضعوا لعملية جراحية لتغيير شرايين المعدة، والتى عادةً ما تتم إزالة الجزء العلوى من الأمعاء الدقيقة حيث يتم إمتصاص فيتامين د.",
+    vp73: "الحالات الناتجة عن نقص فيتامين د لفترة طويلة:",
+    vli29:
+      "الكساح: حالة تصيب الرضع والأطفال حيث تكون العظام ناعمة وتشوهات فى الهيكل العظمى ناجمة عن فشل أنسجة العظام فى التصلب.",
+    vli30:
+      "تلين العظام: حالة يعانى منها البالغون من عظام ضعيفة وناعمة يمكن عكسها بالمكملات الغذائية.",
+    vli31:
+      "وهذا يختلف عن هشاشة العظام، حيث تكون العظام مسامية وهشة وتكون الحالة غير قابلة للعلاج.",
+    vp74: "غالباً ما تحدث سمية فيتامين د نتيجة تناول جرعات غير منضبطة من المكملات الغذائية.",
+    vp75: "من غير المرجح أن تصل الكميات المنخفضة من الفيتامين الموجود فى الطعام إلى مستوى سام، كما أن التعرض لأشعة الشمس بكميات كبيرة لا يؤدى إلى التسمم لأن الحرارة الزائدة على الجلد تمنع تكوين د ٣.",
+    vp76: "أعراض السمية:",
+    vli32: "فقدان الشهية",
+    vli33: "فقدان الوزن",
+    vli34: "إضطراب نبضات القلب",
+    vli35:
+      "تصلب الأوعية الدموية والأنسجة بسبب زيادة مستويات الكالسيوم فى الدم، مما قد يؤدى إلى تلف القلب والكليتين.",
+    slogan1: "وداعاً للأنيميا ... مرحباً بالمناعة",
+    famp1: "الحديد عنصر أساسى فى علاج فقر الدم (الأنيميا).",
+    famp2: "إن إمتصاص الحديد فى الأمعاء يحتاج إلى ترانسفيرين.",
+    famp3:
+      "ينقل اللاكتوفيرين كمية الحديد ٣ مرات أكثر من أى نوع أخر من الترانسفيرين.",
+    famp4: "فيتامين ج يحافظ على الحديد فى شكل قابل للإمتصاص فى الأمعاء.",
+    famp5: "بالإضافة إلى الفوائد الأخرى لفيتامين ج كمضاد قوى للأكسدة.",
+    famspan1: "إقرأ المزيد عن",
+    btnlinks1: "الفوائد",
+    btnlinks2: "الجرعة والإستخدام",
+    btnlinks3: "التركيبة والحقائق التغذوية",
+    famp6: "كبسولة واحدة يومياً من فامفرين بتركيبته المتكالمة:",
+    famli1: "يوفر تركيز متوازن للحديد فى الدم",
+    famli2: "يدعم المناعة",
+    famli3: "يحمى الخلايا من الإجهاد التأكسدى",
+    famli4: "يمنح شعر صحى ويمنع تساقط الشعر",
+    famli5: "يدعم صحة البشرة",
+    famp7:
+      "رقم التسجيل لدى الهيئة القومية لسلامة الغذاء : ٢٠٢٠/٧١٦، يحفظ بعيداً عن متناول الأطفال",
+    dosage: "الجرعة:",
+    onecap: "كبسولة واحدة يومياً أو حسب تعليمات الطبيب.",
+    usage: "الإستخدام",
+    famli6: "يدعم جهاز المناعة",
+    famli7: "علاج الأنيميا",
+    famli8: "مقوى عام",
+    famli9: "إمداد الجسم بالأكسجين",
+    famli10: "حماية الخلايا من الإجهاد التأكسدى",
+    famli11: "يساهم فى تقليل التعب والإرهاق",
+    famli12: "الإستخدام الأمثل للحديد للوصول لأعلى أداء بدنى",
+    famli13: "يعطى شعر صحى بدون تساقط",
+    famli14: "يدعم صحة أنسجة الجلد",
+    famh21: "كل جرعة يومية تحتوى على",
+    slogan2: "كل ما تحتاجه مفاصلك",
+    staspan1: "يوفر كافة المواد الأساسية التى تدخل فى تركيب المفاصل فى الجسم.",
+    staspan2: "الجلامينوكوز:",
+    staspan3: "كوندرويتين:",
+    staspan4: "الكولاجين:",
+    staspan5: "ميثيل سالفونيل ميثان:",
+    staspan6: "ستافرومين:",
+    stap1: "هو جزء أساسى من مكونات بنية المفاصل.",
+    stap2: "جزء طبيعى لتكوين أنسجة غضروفية جديدة.",
+    stap3:
+      "يمتص السوائل الضرورية داخل نسيج الغضاريف ويمنع الإنزيمات التى تسبب تكسير خلايا المفاصل.",
+    stap4:
+      "المسؤول عن الحفاظ على بنية الأعضاء مثل الأوتار والعضلات والعظام والجلد.",
+    stap5: "هو مضاد للإلتهابات يخفف من آلام المفاصل.",
+    stap6:
+      "يعتبر مفيداً جداً للأشخاص الذين يعانون من هشاشة العظام، وهو نوع من أمراض المفاصل الناتجة عن التآكل والتمزق فى المفاصل بمرور الوقت.",
+    stali1:
+      "يحتوى على ملح البوتاسيوم من الجلوكوزامين الذى لا يؤثر على ضغط الدم الذى يجعل أكياس ستافرومين منتج مناسباً لمرضى إرتفاع ضغط الدم.",
+    stali2:
+      "يحتوى على الجلوكوزامين على هيئة سلفات ومن مميزات عنصر الكبريت أنه من المكونات الأساسية للغضاريف مما يساعد على بناءها.",
+    stali3:
+      "الحل الأمثل للمرضى التي لا تفضل تناول الأدوية والمكملات على هيئة أشربة.",
+    stali4: "جميع المكونات من مصدر طبيعى.",
+    stali5:
+      "يتم إختبار كل ما نصنعه بما يتجاوز المعايير الدولية الأكثر صرامة للنقاء والجودة.",
+    stap7: "رقم التسجيل لدى الهيئة القومية لسلامة الغذاء: ٢٣٧٣ / ٢٠٢١.",
+    stali6: "يدعم صحة جميع المفاصل.",
+    stali7: "يدعم مرونة المفاصل.",
+    stali8: "يساعد على سهولة حركة المفصل والتنقل.",
+    staspan7: "كبسولتين مرتين يومياً",
+    forspan1: "وظيفة كل مادة:",
+    forspan2: "الجلوكوزامين سالفات:",
+    forspan3: "ميثيل سلفونيل ميثان:",
+    forspan4: "كوندرويتين سالفات:",
+    forspan5: "الكولاجين:",
+    forspan6: "تركيبة ٤×١ القوية:",
+    forp1: "يساعد فى الحفاظ على الحركة الصحية للمفاصل.",
+    forp2: "يساعد فى تقليل آلام المفاصل.",
+    forp3: "مضاد لإلتهابات المفاصل ومكون أساسى للغضاريف.",
+    forp4: "يساعد على زيادة مرونة المفاصل والأنسجة",
+    forli1:
+      "ما يميز كبسولات ستافرومين حقاً عن مكملات دعم المفاصل الأخرى هو تركيبته ٤×١ المصممة خصيصاً.",
+    forli2:
+      "بالإضافة الى الجلوكوزامين والكندرويتين، فإنه يحتوى أيضاً على ميثيل سلفونيل ميثان، وهو مصدر عضوى للكبريت، بالإضافة إلى الكولاجين الإضافى - الذى يفيد أيضاً فى صحة بشرتك.",
+    forli3:
+      "كل الدعم الذى تحتاجه مفاصلك: ستضمن كبسولات ستافرومين والجلوكوزامين والكوندرويتين أن تحصل مفاصلك وغضاريفك على كل الدعم الذى تحتاجه للبقاء فى حالة جيدة.",
+    forli4:
+      "إنس كل شئ عن آلام العظام والركبتين: يساعد ستافرومين فى إلتهاب المفاصل والعظام على إستعادة مرونتها وتزييتها، ويخفف الألم، ويوسع نطاق حركتك، ويساعد على منع حدوث المزيد من الضرر للركبتين والوركين والمفاصل الأخرى.",
+    forli5:
+      "يحتوى ستافرومين على ملح البوتاسيوم من الجلوكوزامين الذى لا يؤثر على ضغط الدم.",
+    forli6:
+      "يحتوى ستافرومين على الجلوكوزامين على شكل كبريتات والذى يعد من المكونات الأساسية للغضاريف مما يساعد على بنائها.",
+    forli7: "جميع المكونات من مصدر طبيعى.",
+    forli8:
+      "نقاء مضمون حيث يتم إختبار كل ما نصنعه بما يتجاوز المعايير الدولية الأكثر صرامة للنقاء والجودة.",
+    slogan3: "عزز حياتك الصحية",
+    neh2: "ما هى وظيفة فيتامين ب المركب؟",
+    nep1: "هناك ٨ أنواع من فيتامين ب.",
+    nep2: "فيتامين ب المركب ضرورى:",
+    neli1: "كإنزمات مساعدة: تساعدنا فى الحصول على الطاقة من الطعام.",
+    neli2: "تكوين النواقل العصبية لوظيفة المخ والأعصاب.",
+    neli3:
+      "مزيج من ثمانية فيتامينات (ب) عالية الإمتصاص وقابلة للذوبان فى الماء.",
+    neli4:
+      "تم تركيبه بخبرة لتقديم جرعات فعاله من كل فيتامين لدعم عملية تجديد الخلايا اليومية.",
+    neli5:
+      "الفيتامينات فى أشكالها النشطة للمساعدة فى تحسين الأنشطة الهامة فى جميع أنحاء الجسم.",
+    neli6: "مرة واحدة يومياً.",
+    neli7:
+      "ضمان الجودة: يتم إختبار كل ما نصنعه بما يتماشى مع المعايير الدولية الصارمة للنقاء والجودة.",
+    neli8:
+      "رقم التسجيل لدى الهيئة القومية لسلامة الغذاء: ٧١٧/٢٠٢٠، يحفظ بعيداً عن متناول الأطفال.",
+    nep3: "مصدر غنى بفيتامين ب مركب يدعم:",
+    neli9: "صحة المخ والجهاز العصبى والخلايا العصبية.",
+    neli10: "صحة عمل القلب والجهاز الدورى.",
+    neli11: "يساعد فى التخلص من السموم فى الجسم.",
+    neli12: "الأيض بخلايا الجسم بصورة صحية.",
+    neli13: "إنتاج الطاقة من الطعام بصورة صحية.",
+    neli14: "كمصدر لمضادات للكسدة.",
+    cdp1: "يعتبر فيتامين د اليوم أكثر أهمية من أى وقت مضى.",
+    cdp2: "يلعب فيتامين د٣، وهو شكل أكثر فعالية ومتوفر بيولوجياً مقارنة بفيتامين د٢، دوراً نشطاً فى إمتصاص الكالسيوم والفوسفور، وهما اللبنات الأساسية لصحة العظام.",
+    cdp3: "مع القلق بشأن أضرار التعرض لأشعة الشمس على المدى الطويل، لا يحصل الكثير منا على فيتامين د الذى نحتاجه من أشعة الشمس الطبيعية، لذلك يحتاج الكثير من الأشخاص إلى فيتامين د كمكمل لتعزيز تكوين العظام وجهاز المناعة لديهم.",
+    cdp4: "لا يتم تكوين فيتامين سى أو تصنيعه داخل جسم الإنسان وهو ضرورى لتعزيز مناعة الجسم وكذلك لصحة الأوتار والمفاصل.",
+    cdp5: "لذلك يجب على الفرد الحصول عليه كمكمل غذائى من مصدر خارجى.",
+    cdp6: "إن تناول قرص واحد من فافرا سى دى يعزز الجسم بـ ١٠٠٠ ملجم من فيتامين سى و٥٠٠٠ ملجم.",
+    cdp7: "وحدة دولية فيتامين د٣.",
+    cdp8: "هذه الجرعة كافية لعظام قوية ومناعة للجسم لمدة ٢٤ ساعة.",
+    vcdp1: "فيتامين ج وهو معروف بدوره المهم فى:",
+    vcdli2: "دعم جهاز المناعة",
+    vcdli3: "يعزز إنتاج الكولاجين من أجل بشرة ومفاصل صحية",
+    vcdli4: "مضاد لعلامات تقدم العمر بالإضافة إلى دوره إلهام كمضاد للأكسدة",
+    vcdli5:
+      "فيتامين د٣ وله دور هام فى تحسين كثافة العظام حيث أنه يساعد على إمتصاص الكالسيوم والفوسفات داخل العظام",
+    vcdli6: "رقم التسجيل لدى الهيئة القومية لسلامة الغذاء: ٧١٨ / ٢٠٢٠",
+    vcdli7: "علاج مرض الأسقربوط ( مرض نقص فيتامين ج )",
+    vcdli8: "دعم جهاز المناعة",
+    vcdli9: "مكافحة الشيخوخة لبشرة صحية",
+    vcdli10: "يدعم الدورة الدموية",
+    vcdli11: "مميز لصحة المفاصل والأنسجة الضامة",
+    vcdli12: "مضاد للأكسدة",
+    vcdli13: "يقوى الشعر ويمنع تساقطه",
+    vcdli14: "يلعب دور هام فى إمتصاص الكالسيوم والفوسفات داخل العظام",
+    vcdli15: "يساعد على المحافظة كثافة العظام",
+    vcdspan1: "مصدر غنى بفيتامين ج",
+    vcdspan2: "مصدر غنى بفيتامين د٣",
+    ellspan1: "الكولاجين:",
+    ellp1: "هو عنصر مهم وأساسى لبنية مفاصل الجسم، والبشرة، والأوتار، والأربطة.",
+    ellli1:
+      "بسبب التقدم فى السن، والحركات العنيفة، والتمارين الرياضية المكثفة، قد تفقد المفاصل الكولاجين مما قد يؤدى إلى العديد من الحالات الطبية مثل خشونة المفاصل.",
+    ellli2:
+      "كما أن فقدان الكولاجين يؤثر على البشرة مما قد يؤدى إلى ظهور خطوط البشرة والتجاعيد وفقدان الترطيب.",
+    ellli3:
+      "على مر السنين، يؤدى إنخفاض تناول فيتامينات ومعادن معينة إلى فقدان كبير فى المظهر اللامع والصحى للبشرة والأظافر.",
+    ellp2:
+      "تم تركيب إليناجين بعناية لدعم جسمك بالعناصر اللازمة لإستعادة البنية الصحية للمفاصل بالإضافة إلى مظهر صحى ولامع للبشرة والأظافر:",
+    ellli4:
+      "الكولاجين المتحلل: يزود الجسم بالببتيدات المطلوبة ذات الوزن الجزيئى المنخفض والتى يتم إمتصاصها بسهولة من خلال الأمعاء.",
+    ellli5:
+      "حمض الهيالورونيك: ضرورى للمفاصل ومرونة البشرة ويزيل التجاعيد وخطوط البشرة بسبب تقدم السن أو الإجهاد، كما إنه يساعد بشرتك على الإحتفاظ بالمياه لتبقى رطبة وناعمة.",
+    ellli6:
+      "فيتامين ج: يساهم فى تكوين الكولاجين الطبيعى ويساعد فى تجديد الشكل المخفض من فيتامين هـ.",
+    ellli7:
+      "فيتامين هـ والسيلينيوم والزنك: يحمى بشرتك وأظافرك من الإجهاد التأكسدى.",
+    ellli8: "البيوتين: فيتامين أساسى لصحة البشرة والأظافر.",
+    ellli9:
+      "يتم تحلية إليناجين بواسطة السكرالوز وهو محلى منخفض السعرات الحرارية.",
+    onesac: "كيس واحد يومياً أو كما يوصى به الطبيب",
+    ellp3: "يدعم صحة وتغذية المفاصل والشعر والأظافر",
+    vd1: "فيتامين د هو فيتامين أساسى يتكون بشكل طبيعى فى الجسم ولكنه يحتاج إلى التعرض الكافى لأشعة الشمس.",
+    vd2: "يتم تنشيط فيتامين د فى الجسم إلى فيتامين د٣ الذى يلعب دوراً هاماً فى ترسيب الكالسيوم والفوسفات فى العظام.",
+    vd3: "فى بعض الحالات الطبية، يلزم وجود مصدر خارجى لفيتامين د للحصول على كثافة عظام صحية وتعزيز المناعة.",
+    ironp1: "الحديد هو معدن أساسى يساعد على حمل الأكسجين فى الدم.",
+    ironp2:
+      "يعد مستوى الحديد الأمثل أمراً بالغ الأهمية لحياة صحية طبيعية وجهاز مناعة قوى والصحة الإنجابية وصحة القلب وتكوين خلايا الدم الحمراء وصحة الجلد والعينين.",
+    ironp3:
+      "طوال الحياة، غالباً ما تتعرض مخزونات الدم لدينا للخطر؛ أثناء الحمل، أو الدورة الشهرية، أو خلال سنواتنا الرياضية، أو بعد العمليات الجراحية، أو كجزء من عملية الشيخوخة.",
+    ironp4:
+      "فى الواقع، يعد نقص الحديد أحد الأسباب الأكثر شيوعاً لفقر الدم، حيث يؤثر على ما يصل إلى ٣٠٪ منا!.",
+    ironp5:
+      "تكوين كرات الدم الحمراء وبالتالى تجنب الأمراض المرتبطة بفقر الدم، ليس الحديد فقط ضرورياً ولكن أيضاً العوامل المساعدة مثل حمض الفوليك وفيتامين ب ١٢ وفيتامين ب ٦ وفيتامين ج ضرورية لتعزيز إمتصاص الحديد وتكوين كرات الدم الحمراء.",
+    ironli1:
+      "فافرا إيرن: يسلم الحديد على شكل بيسجليسينات، وقد ثبت سريرياً أن شكل الحديد الذى ننتجه قابل للإمتصاص بدرجة عالية، ويرتبط الحديد بجزيئين من الجلايسين، اللذان يحميان الحديد أثناء إنتقاله عبر الجهاز الهضمى، مما يعزز التوافر البيولوجي والتحمل.",
+    ironli2:
+      "إلى جانب العوامل المشتركة فيتامين ب ١٢ و ب ٦ و ج بالإضافة إلى حمض الفولينيك يضمن أن جسمك لديه جميع إحتياجاته لتكوين خلايا الدم الحمراء، لذا فإن فافرا إيرن مثالى لمرضى فقر الدم أو ذوى المعدة الحساسة.",
+    ironli3:
+      "يوفر فافرا إيرن ٤٠٠ ميكروغرام من حمض الفوليك وهو ضرورى لتكوين كرات الدم الحمراء ونمو الخلايا وتمايزها فى الجنين أثناء الحمل.",
+    ironli4:
+      "يوفر فافرا إيرن ١٨ ميكروجرام من فيتامين ب ١٢ وهو ضرورى لتكوين كرات الدم الحمراء وصحة الجهاز العصبى.",
+    ironli5:
+      "يزود فافرا إيرون الجسم بـ ٢٥ ملغ من فيتامين ب ٦ (البيريدوكسين) مما يقلل من الإحساس بالغثيان أثناء الحمل.",
+    ironli6:
+      "يوفر فافرا إيرن ٢٠٠ ملغ من فيتامين ج الذي يدعم جهاز المناعة ويعزز إمتصاص الحديد فى المعدة.",
+    ironli7: "يدعم المستوى الطبيعى للحديد.",
+    ironli8: "يدعم جهاز المناعة فى الجسم.",
+    ironli9: "يدعم التكوين الطبيعى للهيموجلوبين.",
+    ironli10: "يساهم فى تقليل الشعور بالتعب والإرهاق.",
+    ironli11: "يدعم النمو الخلوى الطبيعى والتمايز.",
+    ironp6:
+      "الفيتامينات والمعادن ضرورية لمعظم الأنشطة البيولوجية فى الجسم، وإنخفاض مستواها أو نقص واحد أو أكثر قد يؤدى إلى إضطرابات كثيرة فى وظائف الجسم.",
+    ironp7:
+      "تحتاج المرأة الحامل إلى الفيتامينات والمعادن المتعددة بشكل منتظم تحت إشراف طبيبها وبتراكيز محسوبة ووفقاً للمعايير العالمية حفاظاً على صحتها وصحة الجنين.",
+    ironp8:
+      "تناول الفيتامينات والمعادن أثناء الحمل وأثناء الرضاعة يحافظ على صحة الأم أو الجنين أو المولود الجديد ويقوى جهاز المناعة لديهم.",
+    ironp9:
+      "يقدم فافرا بريج دعماً فعالاً بدون مستويات زائدة من العناصر الغذائية:",
+    ironp10: "مسجل لدى الهيئة القومية لسلامة الغذاء برقم : ٤٩٩٩/٢٠٢٢",
+    ironli12:
+      "تركيزات قياسية عالمية من الفيتامينات والمعادن المناسبة لدعم صحة الأم والجنين خلال جميع مراحل الحمل.",
+    ironli13:
+      "مدعم بفيتامين د٣: الذى يلعب دوراً مهماً فى الحفاظ على عظام الأم والجنين ودعم مناعتهم.",
+    ironli14:
+      "مدعم بحمض الفوليك: الضرورى للنمو الطبيعى لأنسجة الأم أثناء الحمل.",
+    ironli15: "يحتوى على الزنك الذى يساهم فى الصحة الإنجابية الطبيعية.",
+    ironli16: "لا يحتوى على فيتامين أ الذى لا ينصح به أثناء الحمل.",
+    ironli17:
+      "لا تحتوى كبسولات فافرا بريج الجيلاتينية الصلبة على مواد حافظة قد تكون ضارة بالجنين.",
+    ironli18: "يمكن إستخدام فافرا بريج خلال جميع مراحل الحمل.",
+    ironp11: "يدعم صحة وتغذية الأم والجنين خلال مراحل الحمل بالكامل.",
+    slimp1: "السمنة مرض معقد يتضمن وجود الكثير من الدهون فى الجسم.",
+    slimp2:
+      "السمنة ليست مجرد مشكلة تجميلية، إنها مشكلة طبية تزيد من خطر الإصابة بالعديد من الأمراض والمشاكل الصحية الأخرى.",
+    slimp3:
+      "يمكن أن تشمل هذه أمراض القلب والسكرى وإرتفاع ضغط الدم، إرتفاع نسبة الكوليسترول وأمراض الكبد وتوقف التنفس أثناء النوم وبعض أنواع السرطان.",
+    slimp4:
+      "غالباً ما يستخدم مؤشر كتلة الجسم، المعروف باسم BMI، لتشخيص السمنة.",
+    slimtd1: "مؤشر كتلة الجسم",
+    slimtd2: "أقل من 18.5",
+    slimtd3: "18.5-24.9",
+    slimtd4: "25.0-29.9",
+    slimtd5: "30.0 وما فوق",
+    slimtd6: "حالة وزن",
+    slimtd7: "نقص الوزن",
+    slimtd8: "صحى",
+    slimtd9: "زيادة الوزن",
+    slimtd10: "السمنة",
+    slimp5: "إذا كنت قلقاً بشأن وزنك أو مشاكل صحية متعلقة بالوزن:",
+    slimli1:
+      "إسأل أخصائى الرعاية الصحية الخاص بك عن وسائل التخلص من السمنة المناسبة لك.",
+    slimli2: "إتباع نظام غذائى ونمط حياة صحى.",
+    slimli3: "إتبع خطة التمارين البدنية لتعديل الوزن / فقدانه.",
+    slimli4: "منتجات إنقاص الوزن تساعد على تعزيز فقدان الوزن بشكل صحى.",
+    slimli5:
+      "يحتوى فافرا سلم على مادتين فعالتين وهو مصمم خصيصاً لإنقاص الوزن بدون آثار جانبية وبطريقة صحية:",
+    slimli6: "يقلل من تكوين الدهون.",
+    slimli7: "يقمع الشعور بالجوع.",
+    slimli8:
+      "وجدت بعض الأبحاث أن غاركينيا كامبوجيا قد يحسن مستويات الكوليسترول، ويخفض الدهون الثلاثية والكوليسترول LDL (الكوليسترول الضار) ويرفع HDL (الكوليسترول الجيد).",
+    slimli9:
+      "يعمل موضعياً فى المعدة عن طريق تكوين كتلة هلامية تعطى الشعور بالشبع.",
+    slimli10: "يعزز حركة الأمعاء لتجنب سوء الهضم والإمساك.",
+    slimli11: "مسجل لدى الهيئة القومية لسلامة الغذاء رقم : ٥٠٠٠/٢٠٠٠",
+    slimp6: "مستخلص جارسينيا كامبوجيا (HCA):",
+    slimp7: "جلوكومانان (كونجاك):",
+    slimli12: "يدعم فقدان الوزن.",
+    twocap: "كبسولتين قبل الوجبة الرئيسية أو حسب وصف الطبيب",
+    vitp1: "الفيتامينات والمعادن ضرورية لمعظم الأنشطة البيولوجية للجسم.",
+    vitp2:
+      "إنخفاض مستواها أو نقص واحد أو أكثر قد يؤدى إلى إضطرابات كثيرة فى وظائف الجسم.",
+    vitp3:
+      "يحتاج الأفراد الذين يعانون من بعض الحالات الطبية أو بعد عمليات السمنة إلى مكملات الفيتامينات والمعادن بتركيزات كافية للحفاظ على مستوياتها فى الجسم.",
+    vitp4:
+      "على سبيل المثال، بعد إجراء عملية تحويل مسار المعدة، تعد الفيتامينات والمعادن ضرورية لفترة طويلة.",
+    vitp5:
+      "يعتبر فافرا فيت مصدراً غنياً بالفيتامينات والمعادن التى يحتاجها الجسم فى الحالات التالية:",
+    vitp6: "مسجل لدى الهيئة القومية لسلامة الغذاء برقم: ٥٠٠١/٢٠٢٢",
+    vitli1: "جراحات السمنة لعلاج السمنة (المجازة – جراحة التكميم):",
+    vitli2:
+      "بعد إجراء هذه الأنواع من العمليات الجراحية، يتم تقليل تناول الطعام، وبالتالى تقل إمكانية حصول الجسم على الفيتامينات والمعادن.",
+    vitli3:
+      "تقدم فافرا فيت فيتامينات ومعادن متخصصة بأنواع وتركيزات مختلفة مخصصة وموحدة لهذه الأنواع من العمليات الجراحية.",
+    vitli4: "دعم مناعة الجسم.",
+    vitli5:
+      "النقص عام فى الفيتامينات والمعادن، مما قد يؤدى إلى العديد من الحالات الطبية أو الهزال والضعف العام.",
+    vitp7: "مصدر غنى بالفيتامينات والمعادن التى يحتاجها الجسم.",
+    znp1: "يعتبر عنصر الزنك ضرورياً لمعظم الأنشطة البيولوجية بما فى ذلك الإنزيمات وتعزيز المناعة.",
+    znp2: "تشير الدراسات إلى أن الزنك ضرورى أيضاً لإنتاجية الذكور والقدرة الجنسية.",
+    znp3: "الفيتوستيرول موجود فقط فى النباتات، ويعمل بشكل طبيعى على خفض نسبة الكولسترول فى الدم، فإذا كان طعامنا يحتوى على منتجات نباتية غنية بالفيتوستيرول، فإنه سيعمل على مقاومة وإعاقة إمتصاص الأمعاء للكوليسترول.",
+    znp4: "مصدر غنى بالزنك:",
+    znp5: "مصدر مهم للستيرول النباتى:",
+    znp6: "مسجل لدى الهيئة القومية لسلامة الغذاء برقم: ١٦٧٧/٢٠٢١",
+    znli1:
+      "يدخل فى التركيب الكيميائى لأكثر من ٣٠٠ نوع مختلف من الإنزيمات الأساسية التى تتحكم فى عمليات التمثيل الغذائى المختلفة.",
+    znli2: "يحافظ على جهاز المناعة.",
+    znli3:
+      "ضرورى للصحة الجنسية للذكور، وأسباب ذلك يمكن أن تشمل عمل الزنك المضاد للأكسدة ومساهمته فى الحفاظ على مستويات الهرمونات الطبيعية.",
+    znli4:
+      "يساعد فى نمو الخلايا والأنسجة التالفة ويعمل على ترميمها، كما أن الزنك يلعب دوراً أساسياً فى تكوين العظام وصحتها ويمكن أن يساعد فى الوقاية من هشاشة العظام.",
+    znli5: "تعزيز الذاكرة والوظائف المعرفية.",
+    znli6:
+      "الحفاظ على صحة الأعصاب وتخفيف الأعراض العصبية بما فى ذلك الوخز والتنميل وإعتلال الأعصاب الطرفية.",
+    znli7: "الحفاظ على صحة العيون.",
+    znli8: "يعمل الفيتوستيرول على مقاومة وإعاقة إمتصاص الأمعاء للكوليسترول.",
+    znli9:
+      "كما يثار فى الأوساط العلمية جدوى هذه المادة فى تقليل نسبة الإصابة بالسرطان، مثل سرطان المعدة والبنكرياس والقولون والمستقيم والثدى والبروستاتا.",
+    znli10:
+      "حيث أن إرتفاع مستوى الكوليسترول الحيوانى فى الدم يزيد من خطر الإصابة بهذه السرطانات، لذا فإن تناول الستيرول النباتى يقلل من إمتصاص الكولسترول الحيوانى، وبالتالى يساعد على تقليل خطر الإصابة بسرطان البروستاتا.",
+    znli11: "يدعم المناعة.",
+    znli12: "يعزز صحة العظام.",
+    znli13: "يساهم فى الوظيفة الطبيعية للإخصاب والتكاثر.",
+    getmore: "أحصل على المزيد",
+  },
+};
+
+export default translat;

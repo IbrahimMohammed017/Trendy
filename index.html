@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Trendy Nutrition</title>
+  </head>
+
+  <body>
+    <!-- Navbar & Slider & Core Value -->
+
+    <!-- 1- Navbar -->
+    <header>
+      <div class="container header-box">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Trendy">
+        </a>
+        <nav>
+          <i class="fas fa-bars fa-2x toggle-menu"></i>
+          <ul class="main-navbar">
+            <li><a class="active" href="index.html" data-lang="home">Home</a></li>
+            <li class="main-menu-product">
+              <a href="pages/products.html" data-lang="products">Products</a>
+              <ul class="drop-menu-product">
+                <li>
+                  <a data-lang="famferrin" href="pages/famferrin.html">Famferrin</a>
+                </li>
+                <li>
+                  <a data-lang="stavromine" href="pages/stavromine.html">Stavromine</a>
+                </li>
+                <li>
+                  <a data-lang="stavromineforte" href="pages/stavromineforte.html">Stavromine Forte</a>
+                </li>
+                <li>
+                  <a data-lang="vavrabneuro" href="pages/vavrabneuro.html">Vavra B Neuro</a>
+                </li>
+                <li>
+                  <a data-lang="vavracd" href="pages/vavracd.html">Vavra CD</a>
+                </li>
+                <li>
+                  <a data-lang="ellenagen" href="pages/ellenagen.html">Ellenagen</a>
+                </li>
+                <li>
+                  <a data-lang="vavrad3" href="pages/vavrad3.html">Vavra D3</a>
+                </li>
+                <li>
+                  <a data-lang="vavrairon" href="pages/vavrairon.html">Vavra Iron</a>
+                </li>
+                <li>
+                  <a data-lang="vavrapreg" href="pages/vavrapreg.html">Vavra Preg</a>
+                </li>
+                <li>
+                  <a data-lang="vavraslim" href="pages/vavraslim.html">Vavra Slim</a>
+                </li>
+                <li>
+                  <a data-lang="vavravit" href="pages/vavravit.html">Vavra Vit</a>
+                </li>
+                <li>
+                  <a data-lang="zncyril" href="pages/zncyril.html">Zncyril</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-article">
+              <a href="pages/articles.html" data-lang="articles">Articles</a>
+              <ul class="drop-menu-article">
+                <li>
+                  <a data-lang="dropan" href="pages/ida.html">Anemia</a>
+                </li>
+                <li>
+                  <a data-lang="dropimm" href="pages/htsym.html">Immunity</a>
+                </li>
+                <li>
+                  <a data-lang="dropvit" href="pages/vitamind3.html">Vitamin D3</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="pages/about.html" data-lang="about">About Us</a></li>
+            <li><a href="#con" data-lang="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="lang">
+          <select>
+            <option selected data-lang="choose">Lang</option>
+            <option data-lang="arabic" value="ar">Arabic</option>
+            <option data-lang="english" value="en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2- Slider -->
+    <div class="slider">
+      <div class="slider-box">
+        <ul id="ul">
+          <li>
+            <img src="images/slider-1-en.png" alt="Trendy">
+          </li>
+          <li>
+            <img src="images/slider-2-en.png" alt="Trendy">
+          </li>
+          <li>
+            <img src="images/slider-3-en.png" alt="Trendy">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 3- Core Value -->
+    <div class="core-value">
+      <div class="core-box container">
+        <h1 class=" spcial-heading" data-lang="core">Core Value</h1>
+        <div class="elements-one">
+          <div class="ele">
+            <img src="images/respect.png" alt="Respect">
+            <h2 data-lang="respect">Respect</h2>
+            <p data-lang="respectp">We value each one</p>
+          </div>
+          <div class="ele">
+            <img src="images/cooperation.png" alt="Collaboration">
+            <h2 data-lang="coll">Collaboration</h2>
+            <p data-lang="collp">
+              All the members of our company family are gears moving one machine forward
+            </p>
+          </div>
+          <div class="ele">
+            <img src="images/accountability.png" alt="Accountability">
+            <h2 data-lang="acc">Accountability</h2>
+            <p data-lang="accp">Premium Quality … Premium Health</p>
+          </div>
+        </div>
+        <div class="elements-two">
+          <div class="ele">
+            <img src="images/innovation.png" alt="Innovation">
+            <h2 data-lang="inn">Innovation</h2>
+            <p data-lang="innp">Small ideas lead to great achievements</p>
+          </div>
+          <div class="ele">
+            <img src="images/believe.png" alt="Believe">
+            <h2 data-lang="bel">Believe</h2>
+            <p data-lang="belp">There is always a dream to reach</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Products -->
+    <div class="our-products">
+      <div class="products container">
+        <h1 class="spcial-heading" data-lang="product">Our Products</h1>
+        <p class="spcial-paragraph" data-lang="prointro" id="spara">
+          We provide a wide range of products that meet all the needs of our customers health
+        </p>
+        <div class="auto_slider_container">
+          <ul class="auto_slider" id="sl">
+            <li>
+              <img src="images/famferrin.jpg" alt="Famferrin">
+            </li>
+            <li>
+              <img src="images/stavromine.jpg" alt="Stavromine">
+            </li>
+            <li>
+              <img src="images/stavromine-forte.jpg" alt="Stavromine-Forte">
+            </li>
+            <li>
+              <img src="images/vavra-b-neuro.jpg" alt="Vavra-B-Neuro">
+            </li>
+            <li>
+              <img src="images/vavra-cd.jpg" alt="Vavra-CD">
+            </li>
+            <li>
+              <img src="images/ellenagen.jpg" alt="Ellenagen">
+            </li>
+            <li>
+              <img src="images/vavra-d3.jpg" alt="Vavra-D3">
+            </li>
+            <li>
+              <img src="images/vavra-iron.jpg" alt="Vavra-Iron">
+            </li>
+            <li>
+              <img src="images/vavra-preg.jpg" alt="Vavra-Preg">
+            </li>
+            <li>
+              <img src="images/vavra-slim.jpg" alt="Vavra-Slim">
+            </li>
+            <li>
+              <img src="images/vavra-vit.jpg" alt="Vavra-Vit">
+            </li>
+            <li>
+              <img src="images/zncyril.jpg" alt="Zncyril">
+            </li>
+          </ul>
+          <ul class="auto_slider" id="sl">
+            <li>
+              <img src="images/famferrin.jpg" alt="Famferrin">
+            </li>
+            <li>
+              <img src="images/stavromine.jpg" alt="Stavromine">
+            </li>
+            <li>
+              <img src="images/stavromine-forte.jpg" alt="Stavromine-Forte">
+            </li>
+            <li>
+              <img src="images/vavra-b-neuro.jpg" alt="Vavra-B-Neuro">
+            </li>
+            <li>
+              <img src="images/vavra-cd.jpg" alt="Vavra-CD">
+            </li>
+            <li>
+              <img src="images/ellenagen.jpg" alt="Ellenagen">
+            </li>
+            <li>
+              <img src="images/vavra-d3.jpg" alt="Vavra-D3">
+            </li>
+            <li>
+              <img src="images/vavra-iron.jpg" alt="Vavra-Iron">
+            </li>
+            <li>
+              <img src="images/vavra-preg.jpg" alt="Vavra-Preg">
+            </li>
+            <li>
+              <img src="images/vavra-slim.jpg" alt="Vavra-Slim">
+            </li>
+            <li>
+              <img src="images/vavra-vit.jpg" alt="Vavra-Vit">
+            </li>
+            <li>
+              <img src="images/zncyril.jpg" alt="Zncyril">
+            </li>
+          </ul>
+        </div>
+        <div class="div-more">
+          <p class="spcial-paragraph pro-det" data-lang="promore">
+            To More Details
+          </p>
+          <a href="pages/products.html" class="more" data-lang="proclick">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="articles">
+      <div class="articles-box container">
+        <h1 class="spcial-heading" data-lang="articles">Articles</h1>
+        <p class="spcial-paragraph" data-lang="artintro" id="spara">
+          Because Your health is important to us, so we give you important medical information
+        </p>
+        <a href="pages/articles.html" class="more" data-lang="artmore">Browse from here</a>
+      </div>
+    </div>
+
+    <!-- Who We Are ? -->
+    <div class="about">
+      <div class="about-box container">
+        <h1 class="spcial-heading" data-lang="abouthead">Who We Are ?</h1>
+        <p class="spcial-paragraph intro" data-lang="aboutintro" id="spara">
+          Our team brings together decades of experience across nutrition, medicine, biochemistry and pharmaceutical
+          sciencen, And
+          we continue to learn, grow and improve our products based on the latest research.
+        </p>
+        <hr>
+        <div class="img-box">
+          <div class="img">
+            <img src="images/george.png" alt="Dr\George">
+            <h2 data-lang="geo">Dr. George Kamal</h2>
+            <h3 data-lang="geojob">Chief Executive Officer</h3>
+          </div>
+          <div class="img">
+            <img src="images/kamal.png" alt="Mr\Kamal">
+            <h2 data-lang="kam">Mr. Kamal Guirguis</h2>
+            <h3 data-lang="kamjob">Managing Director</h3>
+          </div>
+          <div class="img">
+            <img src="images/josian.png" alt="Dr\Josian">
+            <h2 data-lang="jos">Dr. Josian Kamal</h2>
+            <h3 data-lang="josjob">Executive Manager</h3>
+          </div>
+        </div>
+        <hr>
+        <div class="div-more">
+          <p class="learn-more" data-lang="aboutmore">
+            To learn More about Us
+          </p>
+          <a data-lang="aboutclick" href="pages/about.html">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our philosophy -->
+    <div class="Our-philosophy">
+      <div class="container">
+        <p class="spcial-paragraph" data-lang="ourphil" id="spara">
+          We don’t believe in one-size-fits-all, That’s why our line-up includes products that are as unique as the
+          people that trust them every day
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Us & Footer-->
+    <div class="contact" id="con">
+      <div class="contact-box container">
+        <h1 class="spcial-heading" data-lang="contact">Contact Us</h1>
+        <hr>
+        <h2 data-lang="conhead">Where You Can Find Us</h2>
+        <hr>
+        <div class="box">
+          <ul>
+            <li>
+              <a data-lang="addlink"
+                href="https://www.google.com/maps/place/29%C2%B057'29.8%22N+30%C2%B055'00.8%22E/@29.9582777,30.9146999,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb3bc5164db17b135!8m2!3d29.9582777!4d30.9168886?hl=en"
+                target="_blank">
+                Egypt, Giza, 6th of October, Central corridor, City stars towers, tower 3, 4th floor, unit 14
+              </a>
+            </li>
+            <li>
+              <a href="mailto:trendy@trendy-nutrition.com" target="_blank">
+                trendy@trendy-nutrition.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:01558402925" target="_blank"> 01558402925</a> <br>
+              <a href="tel:0238244425" target="_blank"> 00238244425</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="facebook">
+              <i class="fa-brands fa-facebook-square fb"></i>
+              <a data-lang="face" href="https://www.facebook.com/Trendy.Dietary.Supplements/" target="_blank"
+                title="Facebook">
+                Face Book
+              </a>
+            </li>
+            <li class="twitter">
+              <i class="fa-brands fa-square-x-twitter xt"></i>
+              <a data-lang="twitter" href="index.html" title="Twitter">
+                X-Twitter
+              </a>
+            </li>
+            <li class="insta">
+              <i class="fa-brands fa-square-instagram in"></i>
+              <a data-lang="insta" href="https://www.instagram.com/trendy_dietary_supplements/?__coig_restricted=1"
+                target="_blank" title="Instagram">
+                Instagram
+              </a>
+            </li>
+            <li class="linkedIn">
+              <i class="fa-brands fa-linkedin ln"></i>
+              <a data-lang="linked" href="index.html" title="LinkedIn">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="spcial-paragraph" data-lang="conp" id="spara">
+          Do not hesitate to contact us, our team is happy to serve you
+        </p>
+      </div>
+      <div class="footer">
+        <div class="footer-box container">
+          <p>
+            Copyright &copy 2023, Designed By
+            <a href="https://www.facebook.com/IbrahimMohammed017" target="_blank">
+              <u>Ibrahim</u>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button Up -->
+    <a href="#" class="up">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+
+    <!-- JS File -->
+    <script src="js/jquery.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+
+</html>

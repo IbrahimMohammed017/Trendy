@@ -1,0 +1,157 @@
+:root {
+  --mainColor: #1e7049;
+  --supColor: #ff4800;
+  --fontColor1: #fff;
+  --fontColor2: #777;
+  --bgColor1: rgba(3, 26, 15, 0.85);
+  --bgColor2: rgba(0, 0, 0, 0.80);
+}
+
+@media (max-width: 1199px) {
+  .anemia-box img {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .sym-div ul,
+  .com-div ol {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .auto_slider li {
+    width: 150px;
+    height: 150px;
+  }
+
+  .img-about {
+    width: 100%;
+  }
+
+  .articl-box,
+  .product-box {
+    flex-direction: column;
+  }
+
+  .topic-image,
+  .product-image {
+    order: -1;
+    width: 100%;
+  }
+
+  .product-image img {
+    width: 40%;
+  }
+  
+  .topic-image img {
+    width: 70%;
+  }
+
+  .topic-box,
+  .pro-intro-box {
+    width: 100%;
+  }
+
+  .waves {
+    left: 0;
+    display: none;
+  }
+
+  .protext {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    justify-content: flex-end;
+  }
+
+  nav ul {
+    left: 0;
+    top: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: var(--bgColor2);
+  }
+
+  nav ul li:not(:last-of-type) {
+    border-bottom: 1px solid var(--supColor)
+  }
+
+  nav ul li a {
+    color: var(--fontColor1);
+  }
+
+  .elements-one,
+  .elements-two {
+    grid-template-columns: 100%;
+  }
+
+  .spcial-heading {
+    font-size: 60px;
+  }
+
+  .waves {
+    height: 70px;
+  }
+
+  .drop-menu-article,
+  .drop-menu-product {
+    display: none !important;
+  }
+
+  .about-intro ul {
+    padding: 0 35px;
+  }
+
+  .img-about ul li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 40px;
+  }
+
+  .spcial-heading {
+    font-size: 50px;
+  }
+
+  .slider {
+    margin-top: 67px;
+  }
+
+  .spcial-paragraph {
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 300px) {}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

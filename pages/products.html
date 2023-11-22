@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>Trendy Nutrition</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="container header-box">
+        <a href="../index.html" class="logo">
+          <img src="../images/logo.png" alt="Trendy">
+        </a>
+        <nav>
+          <i class="fas fa-bars fa-2x toggle-menu"></i>
+          <ul class="main-navbar">
+            <li><a href="../index.html" data-lang="home">Home</a></li>
+            <li class="main-menu-product">
+              <a class="active" href="products.html" data-lang="products">Products</a>
+              <ul class="drop-menu-product">
+                <li>
+                  <a data-lang="famferrin" href="famferrin.html">Famferrin</a>
+                </li>
+                <li>
+                  <a data-lang="stavromine" href="stavromine.html">Stavromine</a>
+                </li>
+                <li>
+                  <a data-lang="stavromineforte" href="stavromineforte.html">Stavromine Forte</a>
+                </li>
+                <li>
+                  <a data-lang="vavrabneuro" href="vavrabneuro.html">Vavra B Neuro</a>
+                </li>
+                <li>
+                  <a data-lang="vavracd" href="vavracd.html">Vavra CD</a>
+                </li>
+                <li>
+                  <a data-lang="ellenagen" href="ellenagen.html">Ellenagen</a>
+                </li>
+                <li>
+                  <a data-lang="vavrad3" href="vavrad3.html">Vavra D3</a>
+                </li>
+                <li>
+                  <a data-lang="vavrairon" href="vavrairon.html">Vavra Iron</a>
+                </li>
+                <li>
+                  <a data-lang="vavrapreg" href="vavrapreg.html">Vavra Preg</a>
+                </li>
+                <li>
+                  <a data-lang="vavraslim" href="vavraslim.html">Vavra Slim</a>
+                </li>
+                <li>
+                  <a data-lang="vavravit" href="vavravit.html">Vavra Vit</a>
+                </li>
+                <li>
+                  <a data-lang="zncyril" href="zncyril.html">Zncyril</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-article">
+              <a href="articles.html" data-lang="articles">Articles</a>
+              <ul class="drop-menu-article">
+                <li>
+                  <a data-lang="dropan" href="ida.html">Anemia</a>
+                </li>
+                <li>
+                  <a data-lang="dropimm" href="htsym.html">Immunity</a>
+                </li>
+                <li>
+                  <a data-lang="dropvit" href="vitamind3.html">Vitamin D3</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="about.html" data-lang="about">About Us</a></li>
+            <li><a href="#con" data-lang="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="lang">
+          <select>
+            <option selected data-lang="choose">Lang</option>
+            <option data-lang="arabic" value="ar">Arabic</option>
+            <option data-lang="english" value="en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <!-- Products Shuffle -->
+    <div class="products-shuffle main-margin">
+      <div class="container">
+        <h1 class="spcial-heading" data-lang="products">Products</h1>
+        <p class="para-intro" data-lang="prointro">
+          We provide a wide range of products that meet all the needs of our customers health.
+        </p>
+        <hr>
+        <div class="form">
+          <span data-lang="filter">Filter Of Products</span>
+          <ul class="list">
+            <li class="selected" data-lang="all" data-cat=".all">All</li>
+            <li data-lang="men" data-cat=".men">Men</li>
+            <li data-lang="women" data-cat=".women">Women</li>
+            <li data-lang="bone" data-cat=".bone">Bone</li>
+            <li data-lang="immunity" data-cat=".immunity">Immunity</li>
+            <li data-lang="pregnancy" data-cat=".pregnancy">Pregnancy</li>
+            <li data-lang="weiman" data-cat=".weiman">Weight Management</li>
+          </ul>
+        </div>
+        <div class="product-card">
+          <div class="card all women immunity pregnancy">
+            <div class="front">
+              <img src="../images/famferrin.jpg" alt="Famferrin">
+              <h2 data-lang="famferrin">Famferrin</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="fam1">Provides balanced iron concentration in the blood</li>
+                <li data-lang="fam2">Supports immunity</li>
+                <li data-lang="fam3">Protects cells against oxidative stress</li>
+              </ul>
+              <a href="famferrin.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all bone">
+            <div class="front">
+              <img src="../images/stavromine.jpg" alt="Stavromine">
+              <h2 data-lang="stavromine">Stavromine</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="sta1">Doesn't affect the blood pressure</li>
+                <li data-lang="sta2">Help To Build The cartilage</li>
+                <li data-lang="sta3">All components are from natural sources</li>
+              </ul>
+              <a href="stavromine.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all bone">
+            <div class="front">
+              <img src="../images/stavromine-forte.jpg" alt="Stavromine Forte">
+              <h2 data-lang="stavromineforte">Stavromine Forte</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="staf1">Provides all the support your joints need</li>
+                <li data-lang="staf2">Helps restore joint flexibility</li>
+                <li data-lang="staf3">It doesn't affect blood pressure</li>
+              </ul>
+              <a href="stavromineforte.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all women bone immunity">
+            <div class="front">
+              <img src="../images/vavra-cd.jpg" alt="Vavra CD">
+              <h2 data-lang="vavracd">Vavra CD</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="cd1">Supports Immune system</li>
+                <li data-lang="cd2">Enhances Collagen formation for healthy skin and joints</li>
+                <li data-lang="cd3">Anti aging</li>
+              </ul>
+              <a href="vavracd.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all men immunity">
+            <div class="front">
+              <img src="../images/vavra-b-neuro.jpg" alt="Vavra B Neuro">
+              <h2 data-lang="vavrabneuro">Vavra B Neuro</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="vbn1">Supports daily cell renewal</li>
+                <li data-lang="vbn2">It helps improve important activities throughout the body</li>
+                <li data-lang="vbn3">Formation of neurotransmitters for brain and nerve function</li>
+              </ul>
+              <a href="vavrabneuro.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all women bone">
+            <div class="front">
+              <img src="../images/ellenagen.jpg" alt="Ellenagen">
+              <h2 data-lang="ellenagen">Ellenagen</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="ell1">Supports your body to restore healthy joint structure</li>
+                <li data-lang="ell2">Provides the body with the required peptides</li>
+                <li data-lang="ell3">Protects your skin and nails from oxidative stress</li>
+              </ul>
+              <a href="ellenagen.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all bone">
+            <div class="front">
+              <img src="../images/vavra-d3.jpg" alt="Vavra D3">
+              <h2 data-lang="vavrad3">Vavra D3</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="d31">Provides the body with 10,000 IU of Vitamin D3</li>
+                <li data-lang="d32">Supports the body's immunity</li>
+                <li data-lang="d33">It enhances the absorption of calcium and phosphate and their deposition in the
+                  bones</li>
+              </ul>
+              <a href="vavrad3.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all pregnancy">
+            <div class="front">
+              <img src="../images/vavra-iron.jpg" alt="Vavra Iron">
+              <h2 data-lang="vavrairon">Vavra Iron</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="iron1">Supports normal level of Iron</li>
+                <li data-lang="iron2">Supports the body immune system</li>
+                <li data-lang="iron3">Contributes to reduce tiredness and fatigue</li>
+              </ul>
+              <a href="vavrairon.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all pregnancy">
+            <div class="front">
+              <img src="../images/vavra-preg.jpg" alt="Vavra Preg">
+              <h2 data-lang="vavrapreg">Vavra Preg</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="preg1">Extends the body with appropriate vitamins & metals</li>
+                <li data-lang="preg2">Support the health of the mother and fetus during all stages of pregnancy</li>
+                <li data-lang="preg3">Includes Zinc which contributes to normal reproductive health</li>
+              </ul>
+              <a href="vavrapreg.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all weiman">
+            <div class="front">
+              <img src="../images/vavra-slim.jpg" alt="Vavra Slim">
+              <h2 data-lang="vavraslim">Vavra Slim</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="slim1">Decreases the formation of fats.</li>
+                <li data-lang="slim2">Suppresses the feeling of hunger.</li>
+                <li data-lang="slim3">Enhances the intestinal movement to avoid maldigestion and constipation.</li>
+              </ul>
+              <a href="vavraslim.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all women weiman">
+            <div class="front">
+              <img src="../images/vavra-vit.jpg" alt="Vavra Vit">
+              <h2 data-lang="vavravit">Vavra Vit</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="vit1">Support the body immunity.</li>
+                <li data-lang="vit2">Extends the body with appropriate vitamins & metals.</li>
+                <li data-lang="vit3">Treated general weakness & is still due to vitamin deficiency</li>
+              </ul>
+              <a href="vavravit.html" data-lang="more">More</a>
+            </div>
+          </div>
+          <div class="card all men immunity">
+            <div class="front">
+              <img src="../images/zncyril.jpg" alt="Zncyril">
+              <h2 data-lang="zncyril">Zncyril</h2>
+            </div>
+            <div class="back">
+              <h2 data-lang="benefits">Benefits</h2>
+              <ul>
+                <li data-lang="znc1">Maintains the immune system.</li>
+                <li data-lang="znc2">It's essential for male sexual health.</li>
+                <li data-lang="znc3">It helps in the growth of damaged cells.</li>
+              </ul>
+              <a href="zncyril.html" data-lang="more">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us & Footer-->
+    <div class="contact" id="con">
+      <div class="contact-box container">
+        <h1 class="spcial-heading" data-lang="contact">Contact Us</h1>
+        <hr>
+        <h2 data-lang="conhead">Where You Can Find Us</h2>
+        <hr>
+        <div class="box">
+          <ul>
+            <li>
+              <a data-lang="addlink"
+                href="https://www.google.com/maps/place/29%C2%B057'29.8%22N+30%C2%B055'00.8%22E/@29.9582777,30.9146999,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb3bc5164db17b135!8m2!3d29.9582777!4d30.9168886?hl=en"
+                target="_blank">
+                Egypt, Giza, 6th of October, Central corridor, City stars towers, tower 3, 4th floor, unit 14
+              </a>
+            </li>
+            <li>
+              <a href="mailto:trendy@trendy-nutrition.com" target="_blank">
+                trendy@trendy-nutrition.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:01558402925" target="_blank"> 01558402925</a> <br>
+              <a href="tel:0238244425" target="_blank"> 00238244425</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="facebook">
+              <i class="fa-brands fa-facebook-square fb"></i>
+              <a data-lang="face" href="https://www.facebook.com/Trendy.Dietary.Supplements/" target="_blank"
+                title="Facebook">
+                Face Book
+              </a>
+            </li>
+            <li class="twitter">
+              <i class="fa-brands fa-square-x-twitter xt"></i>
+              <a data-lang="twitter" href="../index.html" title="Twitter">
+                X-Twitter
+              </a>
+            </li>
+            <li class="insta">
+              <i class="fa-brands fa-square-instagram in"></i>
+              <a data-lang="insta" href="https://www.instagram.com/trendy_dietary_supplements/?__coig_restricted=1"
+                target="_blank" title="Instagram">
+                Instagram
+              </a>
+            </li>
+            <li class="linkedIn">
+              <i class="fa-brands fa-linkedin ln"></i>
+              <a data-lang="linked" href="../index.html" title="LinkedIn">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="spcial-paragraph" data-lang="conp" id="spara">
+          Do not hesitate to contact us, our team is happy to serve you
+        </p>
+      </div>
+      <div class="footer">
+        <div class="footer-box container">
+          <p>
+            Copyright &copy 2023, Designed By
+            <a href="https://www.facebook.com/IbrahimMohammed017" target="_blank">
+              <u>Ibrahim</u>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button Up -->
+    <a href="#" class="up">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+
+    <!-- JS File -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/translate.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js" type="module"></script>
+  </body>
+
+</html>
