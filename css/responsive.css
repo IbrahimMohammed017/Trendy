@@ -44,7 +44,7 @@
   .product-image img {
     width: 40%;
   }
-  
+
   .topic-image img {
     width: 70%;
   }
@@ -54,7 +54,7 @@
     width: 100%;
   }
 
-  .waves {
+  .product-box .waves {
     left: 0;
     display: none;
   }
