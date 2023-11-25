@@ -1006,7 +1006,7 @@ nav ul li a {
 
 .img-about {
   width: 350px;
-  height: 620px;
+  min-height: 620px;
   max-width: 100%;
   padding-left: 5px;
   padding-right: 5px;
