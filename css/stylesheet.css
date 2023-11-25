@@ -1006,11 +1006,11 @@ nav ul li a {
 
 .img-about {
   width: 350px;
-  min-height: 480px;
+  height: 620px;
   max-width: 100%;
   padding-left: 5px;
   padding-right: 5px;
-  padding-top: 80px;
+  padding-top: 100px;
   position: relative;
   margin: 100px 10px;
   box-shadow: 0 0 10px 3px var(--fontColor2);
@@ -1026,19 +1026,21 @@ nav ul li a {
   left: 50%;
   position: absolute;
   border-color: var(--mainColor);
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
+  transform: translate(-50%, 25%);
+  -webkit-transform: translate(-50%, 25%);
+  -moz-transform: translate(-50%, 25%);
+  -ms-transform: translate(-50%, 25%);
+  -o-transform: translate(-50%, 25%);
 }
 
 .img-about ul {
+  padding: 0 15px;
   margin-top: 20px;
+  list-style: disc;
 }
 
 .img-about ul li {
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.6;
   text-align: start;
   margin-bottom: 10px;
