@@ -41,10 +41,6 @@
     width: 100%;
   }
 
-  /* .product-image img {
-    width: 40%;
-  } */
-
   .topic-image img {
     width: 70%;
   }
@@ -110,6 +106,11 @@
 
   .img-about ul li {
     font-size: 17px;
+  }
+
+  .vision div {
+    width: 100%;
+    margin: 15px 5px;
   }
 }
 
