@@ -12,6 +12,7 @@
   --supColor: #ff4800;
   --fontColor1: #fff;
   --fontColor2: #777;
+  --fontColor3: #b1b1b1;
   --bgColor1: rgba(3, 26, 15, 0.85);
   --bgColor2: rgba(0, 0, 0, 0.80);
 }
@@ -869,8 +870,10 @@ nav ul li a {
 
 .topic-text,
 .pro-text {
-  margin-bottom: 20px;
+  height: 300px;
   line-height: 1.6;
+  overflow: scroll;
+  margin-bottom: 20px;
 }
 
 .td {
@@ -910,6 +913,14 @@ nav ul li a {
 .topic-image img,
 .product-image img {
   width: 100%;
+}
+
+.link {
+  margin-top: 25px;
+}
+
+.link a {
+  text-decoration: underline;
 }
 
 /* End Articles Section */
@@ -1044,6 +1055,19 @@ nav ul li a {
   line-height: 1.6;
   text-align: start;
   margin-bottom: 10px;
+}
+
+.kamp {
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.josp {
+  margin: 15px 0;
+  font-size: 20px;
+  padding: 0 10px;
+  text-align: start;
+  color: var(--supColor);
 }
 
 /* End About Us Section */
@@ -1252,6 +1276,10 @@ nav ul li a {
   color: var(--mainColor);
 }
 
+.dosage {
+  color: var(--supColor) !important;
+}
+
 .pro-text h2 {
   font-size: 22px;
   color: var(--supColor);
@@ -1259,6 +1287,10 @@ nav ul li a {
 
 .pro-head {
   margin: 10px 0;
+}
+
+.product-image {
+  height: 350px;
 }
 
 .product-image,
