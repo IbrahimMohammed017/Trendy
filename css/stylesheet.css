@@ -378,6 +378,10 @@ nav ul li a {
   margin-bottom: 10px;
 }
 
+.box ul li a {
+  color: var(--fontColor3);
+}
+
 .footer {
   text-align: center;
   background-color: var(--bgColor1);
@@ -467,6 +471,10 @@ nav ul li a {
 /* Our Products */
 .our-products {
   background-color: var(--bgColor1);
+}
+
+.font3 {
+  color: var(--fontColor3) !important;
 }
 
 .auto_slider_container {
@@ -596,7 +604,7 @@ nav ul li a {
 }
 
 .img h3 {
-  color: var(--fontColor2);
+  color: var(--fontColor3);
 }
 
 .about-box a {
@@ -874,6 +882,11 @@ nav ul li a {
   line-height: 1.6;
   overflow: scroll;
   margin-bottom: 20px;
+}
+
+.topic-text::-webkit-scrollbar,
+.pro-text::-webkit-scrollbar {
+  display: none;
 }
 
 .td {
