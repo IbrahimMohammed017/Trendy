@@ -79,6 +79,10 @@ hr {
   color: rgb(45 130 90 / 50%);
 }
 
+.head2 {
+  color: var(--fontColor3);
+}
+
 .para-intro {
   text-align: center;
   margin-bottom: 40px;
@@ -219,7 +223,7 @@ nav ul li a {
 
 .drop-menu-product,
 .drop-menu-article {
-  top: 30px;
+  top: 20px;
   left: 50%;
   width: 185px;
   display: none;
@@ -329,13 +333,13 @@ nav ul li a {
 .contact-box hr {
   width: 20%;
   margin: 20px auto;
-  border-color: var(--supColor);
+  border-color: var(--fontColor3);
 }
 
 .contact-box h2 {
   font-size: 30px;
   text-align: center;
-  color: var(--mainColor);
+  color: var(--supColor);
 }
 
 .box {
@@ -1043,6 +1047,10 @@ nav ul li a {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+}
+
+.img-about h3 {
+  color: var(--supColor);
 }
 
 .img-about img {
