@@ -761,6 +761,8 @@ const translat = {
     josp: "Expert In:",
     linkspan1:
       "provide your body with the iron and vitamins necessary to prevent anemia.",
+    readmore: "Read more",
+    readless: "Read less",
   },
 
   /* ******************** */
@@ -1519,6 +1521,8 @@ const translat = {
     kamp: "خبير ومستشار فى مجال الإقتصاد والمصارف والمالية والضرائب، بالإضافة إلى خبرته الكبيرة فى مجال التسويق والمبيعات، كل هذه الخبرات إكتسبها من خلال مناصب عمله السابقة:",
     josp: "خبيرة فى:",
     linkspan1: "يمدان جسمك بالحديد والفيتامينات اللازمة للوقاية من فقر الدم.",
+    readmore: "إقرأ المزيد",
+    readless: "إقرأ أقل",
   },
 };
 

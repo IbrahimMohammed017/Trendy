@@ -143,3 +143,25 @@ $(function () {
     $(".d52").toggle(1000);
   });
 });
+
+$(function () {
+  $(".show-over").on("click", function () {
+    $(".pro-intro-box").css("height", "fit-content");
+    $(".over").css({
+      height: "fit-content",
+      "margin-bottom": "75px",
+    });
+    $(".show-over").css("display", "none");
+  });
+});
+
+$(function () {
+  $(".show-less").on("click", function () {
+    $(".pro-intro-box").css("height", "400px");
+    $(".over").css({
+      height: "300px",
+      "margin-bottom": "25px",
+    });
+    $(".show-over").css("display", "block");
+  });
+});
