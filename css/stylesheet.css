@@ -1297,6 +1297,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+.inline {
+  display: inline;
+}
+
 .pro-text li {
   font-weight: normal;
 }
