@@ -154,9 +154,9 @@ const translat = {
       "We are seeking to provide the community with wide range of products that meet most of costumers’ needs.",
     name5: "Your health is our responsibility.",
     name6:
-      "Aiming to implement the company’s vision towards industrialization, by God’s grace and praise, we have purchased a piece of land located in Tarbol industrial zone - ElKorimate road - Giza governorate.",
+      "Aiming to implement the company’s vision towards industrialization, by God’s grace and praise, we have purchased a plot No. El-13 Tarbol industrial zone - ElKorimate road - Giza governorate.",
     name7:
-      "Construction and equipment purchasing will soon start, so that actual production will begin within three years, according to the terms of the contract and requirements of the Industrial Development Authority,thus coping with our country’s plan to encourage manufacturing and reduce the import bill.",
+      "Construction and equipment purchasing will start soon, so that actual production will begin within three years, according to the terms of the contract and requirements of the Industrial Development Authority,thus coping with our country’s plan to encourage manufacturing and reduce the import bill.",
     vishead: "Our Vision",
     vistext:
       "By 2026 to be one of the Top 30 nutraceutical companies in Egypt.",
@@ -925,7 +925,7 @@ const translat = {
       "نسعى إلى تزويد المجتمع بمجموعة واسعة من المنتجات التى تلبى معظم إحتياجات العملاء.",
     name5: "صحتك مسؤوليتنا.",
     name6:
-      "تنفيذاً لرؤية الشركة نحو التصنيع، قمنا بفضل الله وحمده بشراء قطعة أرض بمدينة طربول الصناعية - طريق الكريمات - محافظة الجيزة.",
+      "تنفيذاً لرؤية الشركة نحو التصنيع، قمنا بفضل الله وحمده بشراء قطعة أرض رقم El-13 بمدينة طربول الصناعية - طريق الكريمات - محافظة الجيزة.",
     name7:
       "ومن المقرر أن يبدأ قريباً شراء الإنشاءات والمعدات، ليبدأ الإنتاج الفعلى خلال ثلاث سنوات، وفقاً لشروط العقد ومتطلبات هيئة التنمية الصناعية، بما يتماشى مع خطة بلادنا لتشجيع التصنيع وخفض فاتورة الإستيراد.",
     vishead: "رؤيتنا",
