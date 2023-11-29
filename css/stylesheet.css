@@ -1370,14 +1370,9 @@ nav ul li a {
 
 /* End Products Section */
 
-body {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none
-}
 
-.separator a, .post-body img {
+/* No Copy & Text */
+img {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -1393,4 +1388,11 @@ pre, kbd, blockquote, table {
   -moz-user-select: text;
   -ms-user-select: text;
   user-select: text
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
 }
